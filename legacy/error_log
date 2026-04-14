@@ -1,0 +1,1475 @@
+[12-May-2021 18:31:55 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 18:31:56 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 18:31:56 Africa/Nairobi] Binding transmitter...
+[12-May-2021 18:31:56 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 18:31:56 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 18:31:56 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 18:31:56 Africa/Nairobi]  sequence number : 1
+[12-May-2021 18:31:56 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 18:31:56 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 18:31:56 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 18:31:56 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 18:31:56 Africa/Nairobi]  sequence number : 1
+[12-May-2021 18:31:56 Africa/Nairobi] Binding status  : 0
+[12-May-2021 18:31:56 Africa/Nairobi] Send PDU         : 196 bytes
+[12-May-2021 18:31:56 Africa/Nairobi]  00 00 00 c4 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 45 4e 47 41 52 45 4e 41 52 4f 4b 00 01 01 39 33 34 00 00 00 00 00 00 01 00 00 00 95 6d 70 65 6e 64 77 61 20 20 48 6f 6e 67 65 72 61 20 6b 77 61 20 75 74 75 6d 69 73 68 69 20 6b 77 61 20 4d 75 6e 67 75 2c 20 4d 75 6e 67 75 20 61 6b 75 62 61 72 69 6b 69 20 20 73 61 6e 61 2c 20 20 54 75 6e 61 6b 75 6f 6d 62 65 61 20 4d 75 6e 67 75 20 20 61 6b 75 66 61 6e 69 6b 69 73 68 65 20 6b 74 6b 20 6d 69 70 61 6e 67 6f 20 79 61 6b 6f 2e 20 5a 61 62 75 72 69 20 20 32 30 3a 35 20 75 62 61 72 69 6b 69 77 65 20 4d 77 6e 6a 20 4d 61 6b 75 6c 65 
+[12-May-2021 18:31:56 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 18:31:56 Africa/Nairobi]  sequence number : 2
+[12-May-2021 18:31:56 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 18:31:56 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 33 00 00 00 02 38 32 35 30 33 31 31 36 37 31 33 38 37 36 32 33 38 36 33 00 
+[12-May-2021 18:31:56 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 18:31:56 Africa/Nairobi]  command status  : 0x33 Invalid number of destinations
+[12-May-2021 18:31:56 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:00:11 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:00:11 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:00:11 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:00:11 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:00:11 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:00:11 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:00:11 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:00:12 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:00:12 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:00:12 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:00:12 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:00:12 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:00:12 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:00:12 Africa/Nairobi] Send PDU         : 196 bytes
+[12-May-2021 19:00:12 Africa/Nairobi]  00 00 00 c4 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 45 4e 47 41 52 45 4e 41 52 4f 4b 00 01 01 39 36 35 00 00 00 00 00 00 01 00 00 00 95 6d 70 65 6e 64 77 61 20 20 48 6f 6e 67 65 72 61 20 6b 77 61 20 75 74 75 6d 69 73 68 69 20 6b 77 61 20 4d 75 6e 67 75 2c 20 4d 75 6e 67 75 20 61 6b 75 62 61 72 69 6b 69 20 20 73 61 6e 61 2c 20 20 54 75 6e 61 6b 75 6f 6d 62 65 61 20 4d 75 6e 67 75 20 20 61 6b 75 66 61 6e 69 6b 69 73 68 65 20 6b 74 6b 20 6d 69 70 61 6e 67 6f 20 79 61 6b 6f 2e 20 5a 61 62 75 72 69 20 20 32 30 3a 35 20 75 62 61 72 69 6b 69 77 65 20 4d 77 6e 6a 20 4d 61 6b 75 6c 65 
+[12-May-2021 19:00:12 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 19:00:12 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:00:12 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 19:00:12 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 33 00 00 00 02 38 32 35 30 34 31 33 33 36 37 31 35 38 36 34 30 36 36 30 00 
+[12-May-2021 19:00:12 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 19:00:12 Africa/Nairobi]  command status  : 0x33 Invalid number of destinations
+[12-May-2021 19:00:12 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:02:09 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:02:09 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:02:09 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:02:09 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:02:09 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:02:09 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:02:09 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:02:10 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:02:10 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:02:10 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:02:10 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:02:10 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:02:10 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:02:10 Africa/Nairobi] Send PDU         : 196 bytes
+[12-May-2021 19:02:10 Africa/Nairobi]  00 00 00 c4 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 45 4e 47 41 52 45 4e 41 52 4f 4b 00 01 01 39 36 38 00 00 00 00 00 00 01 00 00 00 95 6d 70 65 6e 64 77 61 20 20 48 6f 6e 67 65 72 61 20 6b 77 61 20 75 74 75 6d 69 73 68 69 20 6b 77 61 20 4d 75 6e 67 75 2c 20 4d 75 6e 67 75 20 61 6b 75 62 61 72 69 6b 69 20 20 73 61 6e 61 2c 20 20 54 75 6e 61 6b 75 6f 6d 62 65 61 20 4d 75 6e 67 75 20 20 61 6b 75 66 61 6e 69 6b 69 73 68 65 20 6b 74 6b 20 6d 69 70 61 6e 67 6f 20 79 61 6b 6f 2e 20 5a 61 62 75 72 69 20 20 32 30 3a 35 20 75 62 61 72 69 6b 69 77 65 20 4d 77 6e 6a 20 4d 61 6b 75 6c 65 
+[12-May-2021 19:02:10 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 19:02:10 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:02:10 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 19:02:10 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 33 00 00 00 02 38 32 35 30 34 31 33 34 38 35 32 30 37 38 36 38 32 32 37 00 
+[12-May-2021 19:02:10 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 19:02:10 Africa/Nairobi]  command status  : 0x33 Invalid number of destinations
+[12-May-2021 19:02:10 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:04:28 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:04:29 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:04:29 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:04:29 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:04:29 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:04:29 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:04:29 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:04:29 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:04:29 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:04:29 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:04:29 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:04:29 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:04:29 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:04:29 Africa/Nairobi] Send PDU         : 196 bytes
+[12-May-2021 19:04:29 Africa/Nairobi]  00 00 00 c4 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 45 4e 47 41 52 45 4e 41 52 4f 4b 00 01 01 39 37 31 00 00 00 00 00 00 01 00 00 00 95 6d 70 65 6e 64 77 61 20 20 48 6f 6e 67 65 72 61 20 6b 77 61 20 75 74 75 6d 69 73 68 69 20 6b 77 61 20 4d 75 6e 67 75 2c 20 4d 75 6e 67 75 20 61 6b 75 62 61 72 69 6b 69 20 20 73 61 6e 61 2c 20 20 54 75 6e 61 6b 75 6f 6d 62 65 61 20 4d 75 6e 67 75 20 20 61 6b 75 66 61 6e 69 6b 69 73 68 65 20 6b 74 6b 20 6d 69 70 61 6e 67 6f 20 79 61 6b 6f 2e 20 5a 61 62 75 72 69 20 20 32 30 3a 35 20 75 62 61 72 69 6b 69 77 65 20 4d 77 6e 6a 20 4d 61 6b 75 6c 65 
+[12-May-2021 19:04:29 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 19:04:29 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:04:29 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 19:04:29 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 33 00 00 00 02 38 32 36 33 34 35 36 37 31 32 39 36 39 32 36 32 35 36 39 00 
+[12-May-2021 19:04:29 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 19:04:29 Africa/Nairobi]  command status  : 0x33 Invalid number of destinations
+[12-May-2021 19:04:29 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:06:57 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:06:57 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:06:57 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:06:57 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:06:57 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:06:57 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:06:57 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:06:57 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:06:57 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:06:57 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:06:57 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:06:57 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:06:57 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:06:57 Africa/Nairobi] Send PDU         : 196 bytes
+[12-May-2021 19:06:57 Africa/Nairobi]  00 00 00 c4 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 45 4e 47 41 52 45 4e 41 52 4f 4b 00 01 01 39 37 34 00 00 00 00 00 00 01 00 00 00 95 6d 70 65 6e 64 77 61 20 20 48 6f 6e 67 65 72 61 20 6b 77 61 20 75 74 75 6d 69 73 68 69 20 6b 77 61 20 4d 75 6e 67 75 2c 20 4d 75 6e 67 75 20 61 6b 75 62 61 72 69 6b 69 20 20 73 61 6e 61 2c 20 20 54 75 6e 61 6b 75 6f 6d 62 65 61 20 4d 75 6e 67 75 20 20 61 6b 75 66 61 6e 69 6b 69 73 68 65 20 6b 74 6b 20 6d 69 70 61 6e 67 6f 20 79 61 6b 6f 2e 20 5a 61 62 75 72 69 20 20 32 30 3a 35 20 75 62 61 72 69 6b 69 77 65 20 4d 77 6e 6a 20 4d 61 6b 75 6c 65 
+[12-May-2021 19:06:57 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 19:06:57 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:06:58 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 19:06:58 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 33 00 00 00 02 38 32 35 30 34 31 33 37 37 32 39 34 30 38 32 30 31 36 32 00 
+[12-May-2021 19:06:58 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 19:06:58 Africa/Nairobi]  command status  : 0x33 Invalid number of destinations
+[12-May-2021 19:06:58 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:07:01 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:07:01 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:07:01 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:07:01 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:07:01 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:07:01 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:07:01 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:07:02 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:07:02 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:07:02 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:07:02 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:07:02 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:07:02 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:07:02 Africa/Nairobi] Send PDU         : 196 bytes
+[12-May-2021 19:07:02 Africa/Nairobi]  00 00 00 c4 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 45 4e 47 41 52 45 4e 41 52 4f 4b 00 01 01 39 37 35 00 00 00 00 00 00 01 00 00 00 95 6d 70 65 6e 64 77 61 20 20 48 6f 6e 67 65 72 61 20 6b 77 61 20 75 74 75 6d 69 73 68 69 20 6b 77 61 20 4d 75 6e 67 75 2c 20 4d 75 6e 67 75 20 61 6b 75 62 61 72 69 6b 69 20 20 73 61 6e 61 2c 20 20 54 75 6e 61 6b 75 6f 6d 62 65 61 20 4d 75 6e 67 75 20 20 61 6b 75 66 61 6e 69 6b 69 73 68 65 20 6b 74 6b 20 6d 69 70 61 6e 67 6f 20 79 61 6b 6f 2e 20 5a 61 62 75 72 69 20 20 32 30 3a 35 20 75 62 61 72 69 6b 69 77 65 20 4d 77 6e 6a 20 4d 61 6b 75 6c 65 
+[12-May-2021 19:07:02 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 19:07:02 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:07:02 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 19:07:02 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 33 00 00 00 02 38 32 36 33 34 35 36 38 36 35 36 39 31 31 32 37 39 39 37 00 
+[12-May-2021 19:07:02 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 19:07:02 Africa/Nairobi]  command status  : 0x33 Invalid number of destinations
+[12-May-2021 19:07:02 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:07:04 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:07:04 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:07:04 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:07:04 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:07:04 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:07:04 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:07:04 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:07:05 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:07:05 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:07:05 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:07:05 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:07:05 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:07:05 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:07:05 Africa/Nairobi] Send PDU         : 196 bytes
+[12-May-2021 19:07:05 Africa/Nairobi]  00 00 00 c4 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 45 4e 47 41 52 45 4e 41 52 4f 4b 00 01 01 39 37 37 00 00 00 00 00 00 01 00 00 00 95 6d 70 65 6e 64 77 61 20 20 48 6f 6e 67 65 72 61 20 6b 77 61 20 75 74 75 6d 69 73 68 69 20 6b 77 61 20 4d 75 6e 67 75 2c 20 4d 75 6e 67 75 20 61 6b 75 62 61 72 69 6b 69 20 20 73 61 6e 61 2c 20 20 54 75 6e 61 6b 75 6f 6d 62 65 61 20 4d 75 6e 67 75 20 20 61 6b 75 66 61 6e 69 6b 69 73 68 65 20 6b 74 6b 20 6d 69 70 61 6e 67 6f 20 79 61 6b 6f 2e 20 5a 61 62 75 72 69 20 20 32 30 3a 35 20 75 62 61 72 69 6b 69 77 65 20 4d 77 6e 6a 20 4d 61 6b 75 6c 65 
+[12-May-2021 19:07:05 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 19:07:05 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:07:05 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 19:07:05 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 33 00 00 00 02 38 32 36 33 34 35 36 38 36 38 37 39 35 34 32 39 35 33 39 00 
+[12-May-2021 19:07:05 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 19:07:05 Africa/Nairobi]  command status  : 0x33 Invalid number of destinations
+[12-May-2021 19:07:05 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:07:07 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:07:07 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:07:07 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:07:07 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:07:07 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:07:07 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:07:07 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:07:08 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:07:08 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:07:08 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:07:08 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:07:08 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:07:08 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:07:08 Africa/Nairobi] Send PDU         : 196 bytes
+[12-May-2021 19:07:08 Africa/Nairobi]  00 00 00 c4 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 45 4e 47 41 52 45 4e 41 52 4f 4b 00 01 01 39 37 38 00 00 00 00 00 00 01 00 00 00 95 6d 70 65 6e 64 77 61 20 20 48 6f 6e 67 65 72 61 20 6b 77 61 20 75 74 75 6d 69 73 68 69 20 6b 77 61 20 4d 75 6e 67 75 2c 20 4d 75 6e 67 75 20 61 6b 75 62 61 72 69 6b 69 20 20 73 61 6e 61 2c 20 20 54 75 6e 61 6b 75 6f 6d 62 65 61 20 4d 75 6e 67 75 20 20 61 6b 75 66 61 6e 69 6b 69 73 68 65 20 6b 74 6b 20 6d 69 70 61 6e 67 6f 20 79 61 6b 6f 2e 20 5a 61 62 75 72 69 20 20 32 30 3a 35 20 75 62 61 72 69 6b 69 77 65 20 4d 77 6e 6a 20 4d 61 6b 75 6c 65 
+[12-May-2021 19:07:08 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 19:07:08 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:07:08 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 19:07:08 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 33 00 00 00 02 38 32 35 30 34 31 33 37 38 33 31 31 35 31 35 32 39 36 30 00 
+[12-May-2021 19:07:08 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 19:07:08 Africa/Nairobi]  command status  : 0x33 Invalid number of destinations
+[12-May-2021 19:07:08 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:07:10 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:07:10 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:07:10 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:07:10 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:07:10 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:07:10 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:07:10 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:07:11 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:07:11 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:07:11 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:07:11 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:07:11 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:07:11 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:07:11 Africa/Nairobi] Send PDU         : 196 bytes
+[12-May-2021 19:07:11 Africa/Nairobi]  00 00 00 c4 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 45 4e 47 41 52 45 4e 41 52 4f 4b 00 01 01 39 37 39 00 00 00 00 00 00 01 00 00 00 95 6d 70 65 6e 64 77 61 20 20 48 6f 6e 67 65 72 61 20 6b 77 61 20 75 74 75 6d 69 73 68 69 20 6b 77 61 20 4d 75 6e 67 75 2c 20 4d 75 6e 67 75 20 61 6b 75 62 61 72 69 6b 69 20 20 73 61 6e 61 2c 20 20 54 75 6e 61 6b 75 6f 6d 62 65 61 20 4d 75 6e 67 75 20 20 61 6b 75 66 61 6e 69 6b 69 73 68 65 20 6b 74 6b 20 6d 69 70 61 6e 67 6f 20 79 61 6b 6f 2e 20 5a 61 62 75 72 69 20 20 32 30 3a 35 20 75 62 61 72 69 6b 69 77 65 20 4d 77 6e 6a 20 4d 61 6b 75 6c 65 
+[12-May-2021 19:07:11 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 19:07:11 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:07:11 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 19:07:11 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 33 00 00 00 02 38 32 36 33 34 35 36 38 37 34 36 37 38 34 37 38 38 36 31 00 
+[12-May-2021 19:07:11 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 19:07:11 Africa/Nairobi]  command status  : 0x33 Invalid number of destinations
+[12-May-2021 19:07:11 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:07:48 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:07:48 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:07:48 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:07:48 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:07:48 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:07:48 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:07:48 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:07:48 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:07:48 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:07:48 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:07:48 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:07:48 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:07:48 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:07:48 Africa/Nairobi] Send PDU         : 196 bytes
+[12-May-2021 19:07:48 Africa/Nairobi]  00 00 00 c4 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 45 4e 47 41 52 45 4e 41 52 4f 4b 00 01 01 39 38 30 00 00 00 00 00 00 01 00 00 00 95 6d 70 65 6e 64 77 61 20 20 48 6f 6e 67 65 72 61 20 6b 77 61 20 75 74 75 6d 69 73 68 69 20 6b 77 61 20 4d 75 6e 67 75 2c 20 4d 75 6e 67 75 20 61 6b 75 62 61 72 69 6b 69 20 20 73 61 6e 61 2c 20 20 54 75 6e 61 6b 75 6f 6d 62 65 61 20 4d 75 6e 67 75 20 20 61 6b 75 66 61 6e 69 6b 69 73 68 65 20 6b 74 6b 20 6d 69 70 61 6e 67 6f 20 79 61 6b 6f 2e 20 5a 61 62 75 72 69 20 20 32 30 3a 35 20 75 62 61 72 69 6b 69 77 65 20 4d 77 6e 6a 20 4d 61 6b 75 6c 65 
+[12-May-2021 19:07:48 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 19:07:48 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:07:49 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 19:07:49 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 33 00 00 00 02 38 32 36 33 34 35 36 39 31 32 34 38 37 30 36 34 31 38 32 00 
+[12-May-2021 19:07:49 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 19:07:49 Africa/Nairobi]  command status  : 0x33 Invalid number of destinations
+[12-May-2021 19:07:49 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:09:45 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:09:45 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:09:45 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:09:45 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:09:45 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:09:45 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:09:45 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:09:46 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:09:46 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:09:46 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:09:46 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:09:46 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:09:46 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:09:46 Africa/Nairobi] Send PDU         : 196 bytes
+[12-May-2021 19:09:46 Africa/Nairobi]  00 00 00 c4 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 45 4e 47 41 52 45 4e 41 52 4f 4b 00 01 01 39 38 33 00 00 00 00 00 00 01 00 00 00 95 6d 70 65 6e 64 77 61 20 20 48 6f 6e 67 65 72 61 20 6b 77 61 20 75 74 75 6d 69 73 68 69 20 6b 77 61 20 4d 75 6e 67 75 2c 20 4d 75 6e 67 75 20 61 6b 75 62 61 72 69 6b 69 20 20 73 61 6e 61 2c 20 20 54 75 6e 61 6b 75 6f 6d 62 65 61 20 4d 75 6e 67 75 20 20 61 6b 75 66 61 6e 69 6b 69 73 68 65 20 6b 74 6b 20 6d 69 70 61 6e 67 6f 20 79 61 6b 6f 2e 20 5a 61 62 75 72 69 20 20 32 30 3a 35 20 75 62 61 72 69 6b 69 77 65 20 4d 77 6e 6a 20 4d 61 6b 75 6c 65 
+[12-May-2021 19:09:46 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 19:09:46 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:09:46 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 19:09:46 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 33 00 00 00 02 38 32 36 33 34 35 37 30 32 39 37 32 33 37 38 33 32 32 38 00 
+[12-May-2021 19:09:46 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 19:09:46 Africa/Nairobi]  command status  : 0x33 Invalid number of destinations
+[12-May-2021 19:09:46 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:11:55 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:11:55 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:11:55 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:11:55 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:11:55 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:11:55 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:11:55 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:11:56 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:11:56 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:11:56 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:11:56 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:11:56 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:11:56 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:11:56 Africa/Nairobi] Send PDU         : 196 bytes
+[12-May-2021 19:11:56 Africa/Nairobi]  00 00 00 c4 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 45 4e 47 41 52 45 4e 41 52 4f 4b 00 01 01 39 38 36 00 00 00 00 00 00 01 00 00 00 95 6d 70 65 6e 64 77 61 20 20 48 6f 6e 67 65 72 61 20 6b 77 61 20 75 74 75 6d 69 73 68 69 20 6b 77 61 20 4d 75 6e 67 75 2c 20 4d 75 6e 67 75 20 61 6b 75 62 61 72 69 6b 69 20 20 73 61 6e 61 2c 20 20 54 75 6e 61 6b 75 6f 6d 62 65 61 20 4d 75 6e 67 75 20 20 61 6b 75 66 61 6e 69 6b 69 73 68 65 20 6b 74 6b 20 6d 69 70 61 6e 67 6f 20 79 61 6b 6f 2e 20 5a 61 62 75 72 69 20 20 32 30 3a 35 20 75 62 61 72 69 6b 69 77 65 20 4d 77 6e 6a 20 4d 61 6b 75 6c 65 
+[12-May-2021 19:11:56 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 19:11:56 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:11:56 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 19:11:56 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 33 00 00 00 02 38 32 36 33 34 35 37 31 35 39 37 33 36 36 31 31 31 32 31 00 
+[12-May-2021 19:11:56 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 19:11:56 Africa/Nairobi]  command status  : 0x33 Invalid number of destinations
+[12-May-2021 19:11:56 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:12:28 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:12:28 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:12:28 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:12:28 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:12:28 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:12:28 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:12:28 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:12:29 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:12:29 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:12:29 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:12:29 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:12:29 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:12:29 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:12:29 Africa/Nairobi] Send PDU         : 196 bytes
+[12-May-2021 19:12:29 Africa/Nairobi]  00 00 00 c4 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 45 4e 47 41 52 45 4e 41 52 4f 4b 00 01 01 39 38 38 00 00 00 00 00 00 01 00 00 00 95 6d 70 65 6e 64 77 61 20 20 48 6f 6e 67 65 72 61 20 6b 77 61 20 75 74 75 6d 69 73 68 69 20 6b 77 61 20 4d 75 6e 67 75 2c 20 4d 75 6e 67 75 20 61 6b 75 62 61 72 69 6b 69 20 20 73 61 6e 61 2c 20 20 54 75 6e 61 6b 75 6f 6d 62 65 61 20 4d 75 6e 67 75 20 20 61 6b 75 66 61 6e 69 6b 69 73 68 65 20 6b 74 6b 20 6d 69 70 61 6e 67 6f 20 79 61 6b 6f 2e 20 5a 61 62 75 72 69 20 20 32 30 3a 35 20 75 62 61 72 69 6b 69 77 65 20 4d 77 6e 6a 20 4d 61 6b 75 6c 65 
+[12-May-2021 19:12:29 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 19:12:29 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:12:29 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 19:12:29 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 33 00 00 00 02 38 32 36 33 34 35 37 31 39 32 37 39 38 39 38 30 39 33 34 00 
+[12-May-2021 19:12:29 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 19:12:29 Africa/Nairobi]  command status  : 0x33 Invalid number of destinations
+[12-May-2021 19:12:29 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:12:39 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:12:40 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:12:40 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:12:40 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:12:40 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:12:40 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:12:40 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:12:40 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:12:40 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:12:40 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:12:40 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:12:40 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:12:40 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:12:40 Africa/Nairobi] Send PDU         : 196 bytes
+[12-May-2021 19:12:40 Africa/Nairobi]  00 00 00 c4 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 45 4e 47 41 52 45 4e 41 52 4f 4b 00 01 01 39 38 39 00 00 00 00 00 00 01 00 00 00 95 6d 70 65 6e 64 77 61 20 20 48 6f 6e 67 65 72 61 20 6b 77 61 20 75 74 75 6d 69 73 68 69 20 6b 77 61 20 4d 75 6e 67 75 2c 20 4d 75 6e 67 75 20 61 6b 75 62 61 72 69 6b 69 20 20 73 61 6e 61 2c 20 20 54 75 6e 61 6b 75 6f 6d 62 65 61 20 4d 75 6e 67 75 20 20 61 6b 75 66 61 6e 69 6b 69 73 68 65 20 6b 74 6b 20 6d 69 70 61 6e 67 6f 20 79 61 6b 6f 2e 20 5a 61 62 75 72 69 20 20 32 30 3a 35 20 75 62 61 72 69 6b 69 77 65 20 4d 77 6e 6a 20 4d 61 6b 75 6c 65 
+[12-May-2021 19:12:40 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 19:12:40 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:12:40 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 19:12:40 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 33 00 00 00 02 38 32 35 30 34 31 34 31 31 35 36 30 37 36 31 32 39 31 30 00 
+[12-May-2021 19:12:40 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 19:12:40 Africa/Nairobi]  command status  : 0x33 Invalid number of destinations
+[12-May-2021 19:12:40 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:16:53 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:16:53 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:16:53 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:16:53 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:16:53 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:16:53 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:16:53 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:16:54 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:16:54 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:16:54 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:16:54 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:16:54 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:16:54 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:16:54 Africa/Nairobi] Send PDU         : 328 bytes
+[12-May-2021 19:16:54 Africa/Nairobi]  00 00 01 48 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 4c 61 64 79 4f 66 4d 65 72 63 79 00 01 01 36 32 37 38 39 37 32 20 39 37 00 00 00 00 00 00 01 00 00 00 00 04 24 01 0e 48 61 62 61 72 69 20 6d 7a 61 7a 69 2f 6d 6c 65 7a 69 2e 53 68 75 6c 65 20 69 74 61 66 75 6e 67 75 6c 69 77 61 20 74 61 72 65 68 65 20 31 32 2f 34 2f 32 30 32 31 20 68 69 76 79 6f 20 75 6e 61 6b 75 6d 62 75 73 68 77 61 20 6b 75 6d 61 6c 69 7a 61 20 6b 75 6c 69 70 61 20 61 64 61 20 6b 61 6d 61 20 62 61 64 6f 20 68 75 6a 61 6d 61 6c 69 7a 61 20 6b 77 61 6e 69 20 68 61 74 75 70 65 6e 64 69 20 6b 75 73 75 6d 62 75 61 20 6d 74 6f 74 6f 20 73 69 6b 75 20 68 69 79 6f 20 79 61 20 6b 75 66 75 6e 67 75 61 20 73 68 75 6c 65 2e 4c 69 70 61 20 6b 77 65 6e 79 65 20 61 63 63 6f 75 6e 74 20 79 61 20 4e 4d 42 20 6e 6f 20 34 30 38 31 30 31 32 30 35 34 34 20 61 75 20 4b 43 42 20 61 63 63 6f 75 6e 74 20 6e 6f 20 33 33 30 30 36 38 38 31 34 30 20 6a 69 6e 61 20 4c 61 64 79 20 6f 66 20 4d 65 72 63 79 2e 41 73 61 6e 74 65 
+[12-May-2021 19:16:54 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 19:16:54 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:16:54 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 19:16:54 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 33 00 00 00 02 38 32 35 30 34 31 34 33 36 39 31 37 30 33 36 39 36 35 38 00 
+[12-May-2021 19:16:54 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 19:16:54 Africa/Nairobi]  command status  : 0x33 Invalid number of destinations
+[12-May-2021 19:16:54 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:17:07 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:17:07 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:17:07 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:17:07 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:17:07 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:17:07 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:17:07 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:17:07 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:17:07 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:17:07 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:17:07 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:17:07 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:17:07 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:17:07 Africa/Nairobi] Send PDU         : 210 bytes
+[12-May-2021 19:17:07 Africa/Nairobi]  00 00 00 d2 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 45 4e 47 41 52 45 4e 41 52 4f 4b 00 01 01 37 35 36 20 39 33 36 33 32 39 00 00 00 00 00 00 01 00 00 00 9c 6d 70 65 6e 64 77 61 2c 20 20 48 6f 6e 67 65 72 61 20 6b 77 61 20 75 74 75 6d 69 73 68 69 20 6b 77 61 20 4d 75 6e 67 75 2c 20 4e 69 6b 75 61 6c 69 6b 65 20 6b 61 74 69 6b 61 20 69 62 61 64 61 20 79 61 20 6b 65 73 68 6f 20 79 61 20 6b 75 6b 75 6d 62 75 6b 61 20 6b 75 66 75 66 75 6b 61 20 6b 77 61 20 42 77 61 6e 61 20 77 65 74 75 20 59 65 73 75 20 4b 72 69 73 74 6f 2e 4d 61 72 6b 6f 20 31 36 3a 36 20 75 62 61 72 69 6b 69 77 65 20 4d 77 6e 6a 2e 20 4d 61 6b 75 6c 65 
+[12-May-2021 19:17:07 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 19:17:07 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:17:08 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 19:17:08 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 33 00 00 00 02 38 32 36 33 34 35 37 34 37 31 31 36 31 30 36 35 32 37 34 00 
+[12-May-2021 19:17:08 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 19:17:08 Africa/Nairobi]  command status  : 0x33 Invalid number of destinations
+[12-May-2021 19:17:08 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:17:14 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:17:14 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:17:14 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:17:14 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:17:14 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:17:14 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:17:14 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:17:14 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:17:14 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:17:14 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:17:14 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:17:14 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:17:14 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:17:14 Africa/Nairobi] Send PDU         : 210 bytes
+[12-May-2021 19:17:14 Africa/Nairobi]  00 00 00 d2 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 45 4e 47 41 52 45 4e 41 52 4f 4b 00 01 01 37 35 34 37 35 37 20 34 38 32 00 00 00 00 00 00 01 00 00 00 9c 6d 70 65 6e 64 77 61 2c 20 20 48 6f 6e 67 65 72 61 20 6b 77 61 20 75 74 75 6d 69 73 68 69 20 6b 77 61 20 4d 75 6e 67 75 2c 20 4e 69 6b 75 61 6c 69 6b 65 20 6b 61 74 69 6b 61 20 69 62 61 64 61 20 79 61 20 6b 65 73 68 6f 20 79 61 20 6b 75 6b 75 6d 62 75 6b 61 20 6b 75 66 75 66 75 6b 61 20 6b 77 61 20 42 77 61 6e 61 20 77 65 74 75 20 59 65 73 75 20 4b 72 69 73 74 6f 2e 4d 61 72 6b 6f 20 31 36 3a 36 20 75 62 61 72 69 6b 69 77 65 20 4d 77 6e 6a 2e 20 4d 61 6b 75 6c 65 
+[12-May-2021 19:17:14 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 19:17:14 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:17:15 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 19:17:15 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 33 00 00 00 02 38 32 35 30 34 31 34 33 39 30 30 36 37 30 36 38 32 30 32 00 
+[12-May-2021 19:17:15 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 19:17:15 Africa/Nairobi]  command status  : 0x33 Invalid number of destinations
+[12-May-2021 19:17:15 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:17:20 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:17:20 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:17:20 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:17:20 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:17:20 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:17:20 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:17:20 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:17:21 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:17:21 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:17:21 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:17:21 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:17:21 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:17:21 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:17:21 Africa/Nairobi] Send PDU         : 210 bytes
+[12-May-2021 19:17:21 Africa/Nairobi]  00 00 00 d2 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 45 4e 47 41 52 45 4e 41 52 4f 4b 00 01 01 37 35 34 20 38 30 33 39 34 36 00 00 00 00 00 00 01 00 00 00 9c 6d 70 65 6e 64 77 61 2c 20 20 48 6f 6e 67 65 72 61 20 6b 77 61 20 75 74 75 6d 69 73 68 69 20 6b 77 61 20 4d 75 6e 67 75 2c 20 4e 69 6b 75 61 6c 69 6b 65 20 6b 61 74 69 6b 61 20 69 62 61 64 61 20 79 61 20 6b 65 73 68 6f 20 79 61 20 6b 75 6b 75 6d 62 75 6b 61 20 6b 75 66 75 66 75 6b 61 20 6b 77 61 20 42 77 61 6e 61 20 77 65 74 75 20 59 65 73 75 20 4b 72 69 73 74 6f 2e 4d 61 72 6b 6f 20 31 36 3a 36 20 75 62 61 72 69 6b 69 77 65 20 4d 77 6e 6a 2e 20 4d 61 6b 75 6c 65 
+[12-May-2021 19:17:21 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 19:17:21 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:17:22 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 19:17:22 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 33 00 00 00 02 38 32 36 33 34 35 37 34 38 35 33 37 32 30 38 37 39 32 32 00 
+[12-May-2021 19:17:22 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 19:17:22 Africa/Nairobi]  command status  : 0x33 Invalid number of destinations
+[12-May-2021 19:17:22 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:17:25 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:17:25 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:17:25 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:17:25 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:17:25 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:17:25 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:17:25 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:17:25 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:17:25 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:17:25 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:17:25 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:17:25 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:17:25 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:17:25 Africa/Nairobi] Send PDU         : 210 bytes
+[12-May-2021 19:17:25 Africa/Nairobi]  00 00 00 d2 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 45 4e 47 41 52 45 4e 41 52 4f 4b 00 01 01 37 35 32 20 36 35 35 34 32 37 00 00 00 00 00 00 01 00 00 00 9c 6d 70 65 6e 64 77 61 2c 20 20 48 6f 6e 67 65 72 61 20 6b 77 61 20 75 74 75 6d 69 73 68 69 20 6b 77 61 20 4d 75 6e 67 75 2c 20 4e 69 6b 75 61 6c 69 6b 65 20 6b 61 74 69 6b 61 20 69 62 61 64 61 20 79 61 20 6b 65 73 68 6f 20 79 61 20 6b 75 6b 75 6d 62 75 6b 61 20 6b 75 66 75 66 75 6b 61 20 6b 77 61 20 42 77 61 6e 61 20 77 65 74 75 20 59 65 73 75 20 4b 72 69 73 74 6f 2e 4d 61 72 6b 6f 20 31 36 3a 36 20 75 62 61 72 69 6b 69 77 65 20 4d 77 6e 6a 2e 20 4d 61 6b 75 6c 65 
+[12-May-2021 19:17:25 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 19:17:25 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:17:25 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 19:17:25 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 33 00 00 00 02 38 32 35 30 34 31 34 34 30 30 36 34 32 39 37 35 33 37 37 00 
+[12-May-2021 19:17:25 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 19:17:25 Africa/Nairobi]  command status  : 0x33 Invalid number of destinations
+[12-May-2021 19:17:25 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:17:28 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:17:28 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:17:28 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:17:28 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:17:28 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:17:28 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:17:28 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:17:28 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:17:28 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:17:28 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:17:28 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:17:28 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:17:28 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:17:28 Africa/Nairobi] Send PDU         : 210 bytes
+[12-May-2021 19:17:28 Africa/Nairobi]  00 00 00 d2 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 45 4e 47 41 52 45 4e 41 52 4f 4b 00 01 01 37 35 39 20 39 33 33 36 33 36 00 00 00 00 00 00 01 00 00 00 9c 6d 70 65 6e 64 77 61 2c 20 20 48 6f 6e 67 65 72 61 20 6b 77 61 20 75 74 75 6d 69 73 68 69 20 6b 77 61 20 4d 75 6e 67 75 2c 20 4e 69 6b 75 61 6c 69 6b 65 20 6b 61 74 69 6b 61 20 69 62 61 64 61 20 79 61 20 6b 65 73 68 6f 20 79 61 20 6b 75 6b 75 6d 62 75 6b 61 20 6b 75 66 75 66 75 6b 61 20 6b 77 61 20 42 77 61 6e 61 20 77 65 74 75 20 59 65 73 75 20 4b 72 69 73 74 6f 2e 4d 61 72 6b 6f 20 31 36 3a 36 20 75 62 61 72 69 6b 69 77 65 20 4d 77 6e 6a 2e 20 4d 61 6b 75 6c 65 
+[12-May-2021 19:17:28 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 19:17:28 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:17:29 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 19:17:29 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 33 00 00 00 02 38 32 36 33 34 35 37 34 39 32 34 38 33 31 38 33 36 31 32 00 
+[12-May-2021 19:17:29 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 19:17:29 Africa/Nairobi]  command status  : 0x33 Invalid number of destinations
+[12-May-2021 19:17:29 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:17:33 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:17:33 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:17:33 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:17:33 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:17:33 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:17:33 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:17:33 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:17:33 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:17:33 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:17:33 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:17:33 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:17:33 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:17:33 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:17:33 Africa/Nairobi] Send PDU         : 210 bytes
+[12-May-2021 19:17:33 Africa/Nairobi]  00 00 00 d2 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 45 4e 47 41 52 45 4e 41 52 4f 4b 00 01 01 37 35 34 20 34 37 37 33 33 38 00 00 00 00 00 00 01 00 00 00 9c 6d 70 65 6e 64 77 61 2c 20 20 48 6f 6e 67 65 72 61 20 6b 77 61 20 75 74 75 6d 69 73 68 69 20 6b 77 61 20 4d 75 6e 67 75 2c 20 4e 69 6b 75 61 6c 69 6b 65 20 6b 61 74 69 6b 61 20 69 62 61 64 61 20 79 61 20 6b 65 73 68 6f 20 79 61 20 6b 75 6b 75 6d 62 75 6b 61 20 6b 75 66 75 66 75 6b 61 20 6b 77 61 20 42 77 61 6e 61 20 77 65 74 75 20 59 65 73 75 20 4b 72 69 73 74 6f 2e 4d 61 72 6b 6f 20 31 36 3a 36 20 75 62 61 72 69 6b 69 77 65 20 4d 77 6e 6a 2e 20 4d 61 6b 75 6c 65 
+[12-May-2021 19:17:33 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 19:17:33 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:17:33 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 19:17:33 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 33 00 00 00 02 38 32 36 33 34 35 37 34 39 37 31 37 38 35 32 31 37 34 31 00 
+[12-May-2021 19:17:33 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 19:17:33 Africa/Nairobi]  command status  : 0x33 Invalid number of destinations
+[12-May-2021 19:17:33 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:18:17 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:18:17 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:18:17 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:18:17 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:18:17 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:18:17 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:18:17 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:18:18 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:18:18 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:18:18 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:18:18 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:18:18 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:18:18 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:18:18 Africa/Nairobi] Send PDU         : 210 bytes
+[12-May-2021 19:18:18 Africa/Nairobi]  00 00 00 d2 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 45 4e 47 41 52 45 4e 41 52 4f 4b 00 01 01 37 35 32 20 33 30 39 30 37 39 00 00 00 00 00 00 01 00 00 00 9c 6d 70 65 6e 64 77 61 2c 20 20 48 6f 6e 67 65 72 61 20 6b 77 61 20 75 74 75 6d 69 73 68 69 20 6b 77 61 20 4d 75 6e 67 75 2c 20 4e 69 6b 75 61 6c 69 6b 65 20 6b 61 74 69 6b 61 20 69 62 61 64 61 20 79 61 20 6b 65 73 68 6f 20 79 61 20 6b 75 6b 75 6d 62 75 6b 61 20 6b 75 66 75 66 75 6b 61 20 6b 77 61 20 42 77 61 6e 61 20 77 65 74 75 20 59 65 73 75 20 4b 72 69 73 74 6f 2e 4d 61 72 6b 6f 20 31 36 3a 36 20 75 62 61 72 69 6b 69 77 65 20 4d 77 6e 6a 2e 20 4d 61 6b 75 6c 65 
+[12-May-2021 19:18:18 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 19:18:18 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:18:18 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 19:18:18 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 33 00 00 00 02 38 32 35 30 34 31 34 34 35 33 32 38 35 35 32 37 36 39 38 00 
+[12-May-2021 19:18:18 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 19:18:18 Africa/Nairobi]  command status  : 0x33 Invalid number of destinations
+[12-May-2021 19:18:18 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:18:27 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:18:27 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:18:27 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:18:27 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:18:27 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:18:27 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:18:27 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:18:27 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:18:27 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:18:27 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:18:27 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:18:27 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:18:27 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:18:27 Africa/Nairobi] Send PDU         : 210 bytes
+[12-May-2021 19:18:27 Africa/Nairobi]  00 00 00 d2 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 45 4e 47 41 52 45 4e 41 52 4f 4b 00 01 01 37 31 35 20 32 32 32 37 30 32 00 00 00 00 00 00 01 00 00 00 9c 6d 70 65 6e 64 77 61 2c 20 20 48 6f 6e 67 65 72 61 20 6b 77 61 20 75 74 75 6d 69 73 68 69 20 6b 77 61 20 4d 75 6e 67 75 2c 20 4e 69 6b 75 61 6c 69 6b 65 20 6b 61 74 69 6b 61 20 69 62 61 64 61 20 79 61 20 6b 65 73 68 6f 20 79 61 20 6b 75 6b 75 6d 62 75 6b 61 20 6b 75 66 75 66 75 6b 61 20 6b 77 61 20 42 77 61 6e 61 20 77 65 74 75 20 59 65 73 75 20 4b 72 69 73 74 6f 2e 4d 61 72 6b 6f 20 31 36 3a 36 20 75 62 61 72 69 6b 69 77 65 20 4d 77 6e 6a 2e 20 4d 61 6b 75 6c 65 
+[12-May-2021 19:18:27 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 19:18:27 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:18:28 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 19:18:28 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 33 00 00 00 02 38 32 36 33 34 35 37 35 35 31 33 34 34 35 30 34 30 39 34 00 
+[12-May-2021 19:18:28 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 19:18:28 Africa/Nairobi]  command status  : 0x33 Invalid number of destinations
+[12-May-2021 19:18:28 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:18:32 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:18:33 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:18:33 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:18:33 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:18:33 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:18:33 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:18:33 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:18:33 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:18:33 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:18:33 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:18:33 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:18:33 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:18:33 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:18:33 Africa/Nairobi] Send PDU         : 210 bytes
+[12-May-2021 19:18:33 Africa/Nairobi]  00 00 00 d2 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 45 4e 47 41 52 45 4e 41 52 4f 4b 00 01 01 37 38 38 20 35 35 33 31 38 37 00 00 00 00 00 00 01 00 00 00 9c 6d 70 65 6e 64 77 61 2c 20 20 48 6f 6e 67 65 72 61 20 6b 77 61 20 75 74 75 6d 69 73 68 69 20 6b 77 61 20 4d 75 6e 67 75 2c 20 4e 69 6b 75 61 6c 69 6b 65 20 6b 61 74 69 6b 61 20 69 62 61 64 61 20 79 61 20 6b 65 73 68 6f 20 79 61 20 6b 75 6b 75 6d 62 75 6b 61 20 6b 75 66 75 66 75 6b 61 20 6b 77 61 20 42 77 61 6e 61 20 77 65 74 75 20 59 65 73 75 20 4b 72 69 73 74 6f 2e 4d 61 72 6b 6f 20 31 36 3a 36 20 75 62 61 72 69 6b 69 77 65 20 4d 77 6e 6a 2e 20 4d 61 6b 75 6c 65 
+[12-May-2021 19:18:33 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 19:18:33 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:18:33 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 19:18:33 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 33 00 00 00 02 38 32 35 30 34 31 34 34 36 38 34 37 30 31 39 34 37 33 39 00 
+[12-May-2021 19:18:33 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 19:18:33 Africa/Nairobi]  command status  : 0x33 Invalid number of destinations
+[12-May-2021 19:18:33 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:18:37 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:18:38 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:18:38 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:18:38 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:18:38 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:18:38 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:18:38 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:18:38 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:18:38 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:18:38 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:18:38 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:18:38 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:18:38 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:18:38 Africa/Nairobi] Send PDU         : 210 bytes
+[12-May-2021 19:18:38 Africa/Nairobi]  00 00 00 d2 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 45 4e 47 41 52 45 4e 41 52 4f 4b 00 01 01 37 34 34 20 39 36 33 39 33 32 00 00 00 00 00 00 01 00 00 00 9c 6d 70 65 6e 64 77 61 2c 20 20 48 6f 6e 67 65 72 61 20 6b 77 61 20 75 74 75 6d 69 73 68 69 20 6b 77 61 20 4d 75 6e 67 75 2c 20 4e 69 6b 75 61 6c 69 6b 65 20 6b 61 74 69 6b 61 20 69 62 61 64 61 20 79 61 20 6b 65 73 68 6f 20 79 61 20 6b 75 6b 75 6d 62 75 6b 61 20 6b 75 66 75 66 75 6b 61 20 6b 77 61 20 42 77 61 6e 61 20 77 65 74 75 20 59 65 73 75 20 4b 72 69 73 74 6f 2e 4d 61 72 6b 6f 20 31 36 3a 36 20 75 62 61 72 69 6b 69 77 65 20 4d 77 6e 6a 2e 20 4d 61 6b 75 6c 65 
+[12-May-2021 19:18:38 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 19:18:38 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:18:38 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 19:18:38 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 33 00 00 00 02 38 32 36 33 34 35 37 35 36 31 39 33 34 30 33 30 39 39 39 00 
+[12-May-2021 19:18:38 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 19:18:38 Africa/Nairobi]  command status  : 0x33 Invalid number of destinations
+[12-May-2021 19:18:38 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:18:51 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:18:51 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:18:51 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:18:51 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:18:51 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:18:51 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:18:51 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:18:51 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:18:51 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:18:51 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:18:51 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:18:51 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:18:51 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:18:51 Africa/Nairobi] Send PDU         : 210 bytes
+[12-May-2021 19:18:51 Africa/Nairobi]  00 00 00 d2 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 45 4e 47 41 52 45 4e 41 52 4f 4b 00 01 01 37 36 34 20 30 32 33 31 39 35 00 00 00 00 00 00 01 00 00 00 9c 6d 70 65 6e 64 77 61 2c 20 20 48 6f 6e 67 65 72 61 20 6b 77 61 20 75 74 75 6d 69 73 68 69 20 6b 77 61 20 4d 75 6e 67 75 2c 20 4e 69 6b 75 61 6c 69 6b 65 20 6b 61 74 69 6b 61 20 69 62 61 64 61 20 79 61 20 6b 65 73 68 6f 20 79 61 20 6b 75 6b 75 6d 62 75 6b 61 20 6b 75 66 75 66 75 6b 61 20 6b 77 61 20 42 77 61 6e 61 20 77 65 74 75 20 59 65 73 75 20 4b 72 69 73 74 6f 2e 4d 61 72 6b 6f 20 31 36 3a 36 20 75 62 61 72 69 6b 69 77 65 20 4d 77 6e 6a 2e 20 4d 61 6b 75 6c 65 
+[12-May-2021 19:18:51 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 19:18:51 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:18:51 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 19:18:51 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 33 00 00 00 02 38 32 36 33 34 35 37 35 37 35 32 38 31 32 33 38 38 33 39 00 
+[12-May-2021 19:18:51 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 19:18:51 Africa/Nairobi]  command status  : 0x33 Invalid number of destinations
+[12-May-2021 19:18:51 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:18:58 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:18:58 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:18:58 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:18:58 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:18:58 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:18:58 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:18:58 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:18:58 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:18:58 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:18:58 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:18:58 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:18:58 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:18:58 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:18:58 Africa/Nairobi] Send PDU         : 210 bytes
+[12-May-2021 19:18:58 Africa/Nairobi]  00 00 00 d2 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 45 4e 47 41 52 45 4e 41 52 4f 4b 00 01 01 37 35 34 20 33 34 36 37 34 36 00 00 00 00 00 00 01 00 00 00 9c 6d 70 65 6e 64 77 61 2c 20 20 48 6f 6e 67 65 72 61 20 6b 77 61 20 75 74 75 6d 69 73 68 69 20 6b 77 61 20 4d 75 6e 67 75 2c 20 4e 69 6b 75 61 6c 69 6b 65 20 6b 61 74 69 6b 61 20 69 62 61 64 61 20 79 61 20 6b 65 73 68 6f 20 79 61 20 6b 75 6b 75 6d 62 75 6b 61 20 6b 75 66 75 66 75 6b 61 20 6b 77 61 20 42 77 61 6e 61 20 77 65 74 75 20 59 65 73 75 20 4b 72 69 73 74 6f 2e 4d 61 72 6b 6f 20 31 36 3a 36 20 75 62 61 72 69 6b 69 77 65 20 4d 77 6e 6a 2e 20 4d 61 6b 75 6c 65 
+[12-May-2021 19:18:58 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 19:18:58 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:18:58 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 19:18:58 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 33 00 00 00 02 38 32 35 30 34 31 34 34 39 33 38 30 39 37 32 33 33 38 30 00 
+[12-May-2021 19:18:58 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 19:18:58 Africa/Nairobi]  command status  : 0x33 Invalid number of destinations
+[12-May-2021 19:18:58 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:19:43 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:19:43 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:19:43 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:19:43 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:19:43 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:19:43 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:19:43 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:19:44 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:19:44 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:19:44 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:19:44 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:19:44 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:19:44 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:19:44 Africa/Nairobi] Send PDU         : 210 bytes
+[12-May-2021 19:19:44 Africa/Nairobi]  00 00 00 d2 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 45 4e 47 41 52 45 4e 41 52 4f 4b 00 01 01 37 35 39 20 38 31 39 34 38 30 00 00 00 00 00 00 01 00 00 00 9c 6d 70 65 6e 64 77 61 2c 20 20 48 6f 6e 67 65 72 61 20 6b 77 61 20 75 74 75 6d 69 73 68 69 20 6b 77 61 20 4d 75 6e 67 75 2c 20 4e 69 6b 75 61 6c 69 6b 65 20 6b 61 74 69 6b 61 20 69 62 61 64 61 20 79 61 20 6b 65 73 68 6f 20 79 61 20 6b 75 6b 75 6d 62 75 6b 61 20 6b 75 66 75 66 75 6b 61 20 6b 77 61 20 42 77 61 6e 61 20 77 65 74 75 20 59 65 73 75 20 4b 72 69 73 74 6f 2e 4d 61 72 6b 6f 20 31 36 3a 36 20 75 62 61 72 69 6b 69 77 65 20 4d 77 6e 6a 2e 20 4d 61 6b 75 6c 65 
+[12-May-2021 19:19:44 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 19:19:44 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:19:44 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 19:19:44 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 33 00 00 00 02 38 32 36 33 34 35 37 36 32 37 37 34 32 36 36 32 37 32 38 00 
+[12-May-2021 19:19:44 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 19:19:44 Africa/Nairobi]  command status  : 0x33 Invalid number of destinations
+[12-May-2021 19:19:44 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:19:48 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:19:48 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:19:48 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:19:48 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:19:48 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:19:48 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:19:48 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:19:48 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:19:48 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:19:48 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:19:48 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:19:48 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:19:48 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:19:48 Africa/Nairobi] Send PDU         : 210 bytes
+[12-May-2021 19:19:48 Africa/Nairobi]  00 00 00 d2 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 45 4e 47 41 52 45 4e 41 52 4f 4b 00 01 01 37 35 32 20 39 37 37 37 34 37 00 00 00 00 00 00 01 00 00 00 9c 6d 70 65 6e 64 77 61 2c 20 20 48 6f 6e 67 65 72 61 20 6b 77 61 20 75 74 75 6d 69 73 68 69 20 6b 77 61 20 4d 75 6e 67 75 2c 20 4e 69 6b 75 61 6c 69 6b 65 20 6b 61 74 69 6b 61 20 69 62 61 64 61 20 79 61 20 6b 65 73 68 6f 20 79 61 20 6b 75 6b 75 6d 62 75 6b 61 20 6b 75 66 75 66 75 6b 61 20 6b 77 61 20 42 77 61 6e 61 20 77 65 74 75 20 59 65 73 75 20 4b 72 69 73 74 6f 2e 4d 61 72 6b 6f 20 31 36 3a 36 20 75 62 61 72 69 6b 69 77 65 20 4d 77 6e 6a 2e 20 4d 61 6b 75 6c 65 
+[12-May-2021 19:19:48 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 19:19:48 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:19:49 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 19:19:49 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 33 00 00 00 02 38 32 35 30 34 31 34 35 34 34 30 31 32 38 36 30 30 34 36 00 
+[12-May-2021 19:19:49 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 19:19:49 Africa/Nairobi]  command status  : 0x33 Invalid number of destinations
+[12-May-2021 19:19:49 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:19:52 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:19:52 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:19:52 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:19:52 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:19:52 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:19:52 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:19:52 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:19:53 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:19:53 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:19:53 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:19:53 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:19:53 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:19:53 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:19:53 Africa/Nairobi] Send PDU         : 210 bytes
+[12-May-2021 19:19:53 Africa/Nairobi]  00 00 00 d2 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 45 4e 47 41 52 45 4e 41 52 4f 4b 00 01 01 37 36 38 20 38 38 39 32 35 34 00 00 00 00 00 00 01 00 00 00 9c 6d 70 65 6e 64 77 61 2c 20 20 48 6f 6e 67 65 72 61 20 6b 77 61 20 75 74 75 6d 69 73 68 69 20 6b 77 61 20 4d 75 6e 67 75 2c 20 4e 69 6b 75 61 6c 69 6b 65 20 6b 61 74 69 6b 61 20 69 62 61 64 61 20 79 61 20 6b 65 73 68 6f 20 79 61 20 6b 75 6b 75 6d 62 75 6b 61 20 6b 75 66 75 66 75 6b 61 20 6b 77 61 20 42 77 61 6e 61 20 77 65 74 75 20 59 65 73 75 20 4b 72 69 73 74 6f 2e 4d 61 72 6b 6f 20 31 36 3a 36 20 75 62 61 72 69 6b 69 77 65 20 4d 77 6e 6a 2e 20 4d 61 6b 75 6c 65 
+[12-May-2021 19:19:53 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 19:19:53 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:19:53 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 19:19:53 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 33 00 00 00 02 38 32 36 33 34 35 37 36 33 36 37 32 34 31 32 34 30 39 36 00 
+[12-May-2021 19:19:53 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 19:19:53 Africa/Nairobi]  command status  : 0x33 Invalid number of destinations
+[12-May-2021 19:19:53 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:19:54 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:19:55 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:19:55 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:19:55 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:19:55 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:19:55 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:19:55 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:19:55 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:19:55 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:19:55 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:19:55 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:19:55 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:19:55 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:19:55 Africa/Nairobi] Send PDU         : 358 bytes
+[12-May-2021 19:19:55 Africa/Nairobi]  00 00 01 66 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 4c 61 64 79 4f 66 4d 65 72 63 79 00 01 01 20 20 00 00 00 00 00 00 01 00 00 00 00 04 24 01 34 4e 64 75 67 75 20 6d 7a 61 7a 69 2f 6d 6c 65 7a 69 2c 20 4b 77 61 20 6d 61 72 61 20 6e 79 69 6e 67 69 6e 65 20 74 75 6e 61 6b 75 6b 75 6d 62 75 73 68 61 20 6b 75 77 61 2c 73 68 75 6c 65 20 69 74 61 66 75 6e 67 75 6c 69 77 61 20 74 61 72 65 68 65 20 31 32 2f 34 2f 32 30 32 31 20 68 69 76 79 6f 20 75 6e 61 6b 75 6d 62 75 73 68 77 61 20 6b 75 6d 61 6c 69 7a 61 20 6b 75 6c 69 70 61 20 61 64 61 20 6b 61 6d 61 20 62 61 64 6f 20 68 75 6a 61 6d 61 6c 69 7a 61 20 6b 77 61 6e 69 20 68 61 74 75 70 65 6e 64 69 20 6b 75 73 75 6d 62 75 61 20 6d 74 6f 74 6f 20 73 69 6b 75 20 68 69 79 6f 20 79 61 20 6b 75 66 75 6e 67 75 61 20 73 68 75 6c 65 2e 4c 69 70 61 20 6b 77 65 6e 79 65 20 61 63 63 6f 75 6e 74 20 79 61 20 4e 4d 42 20 6e 6f 20 34 30 38 31 30 31 32 30 35 34 34 20 61 75 20 4b 43 42 20 61 63 63 6f 75 6e 74 20 6e 6f 20 33 33 30 30 36 38 38 31 34 30 20 6a 69 6e 61 20 4c 61 64 79 20 6f 66 20 4d 65 72 63 79 2e 41 73 61 6e 74 65 
+[12-May-2021 19:19:55 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 19:19:55 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:19:55 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 19:19:55 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 33 00 00 00 02 38 32 35 30 34 31 34 35 35 30 35 36 34 31 30 33 36 30 37 00 
+[12-May-2021 19:19:55 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 19:19:55 Africa/Nairobi]  command status  : 0x33 Invalid number of destinations
+[12-May-2021 19:19:55 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:19:57 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:19:57 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:19:57 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:19:57 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:19:57 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:19:57 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:19:57 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:19:57 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:19:57 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:19:57 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:19:57 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:19:57 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:19:57 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:19:57 Africa/Nairobi] Send PDU         : 366 bytes
+[12-May-2021 19:19:57 Africa/Nairobi]  00 00 01 6e 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 4c 61 64 79 4f 66 4d 65 72 63 79 00 01 01 36 32 37 38 39 37 32 20 39 37 00 00 00 00 00 00 01 00 00 00 00 04 24 01 34 4e 64 75 67 75 20 6d 7a 61 7a 69 2f 6d 6c 65 7a 69 2c 20 4b 77 61 20 6d 61 72 61 20 6e 79 69 6e 67 69 6e 65 20 74 75 6e 61 6b 75 6b 75 6d 62 75 73 68 61 20 6b 75 77 61 2c 73 68 75 6c 65 20 69 74 61 66 75 6e 67 75 6c 69 77 61 20 74 61 72 65 68 65 20 31 32 2f 34 2f 32 30 32 31 20 68 69 76 79 6f 20 75 6e 61 6b 75 6d 62 75 73 68 77 61 20 6b 75 6d 61 6c 69 7a 61 20 6b 75 6c 69 70 61 20 61 64 61 20 6b 61 6d 61 20 62 61 64 6f 20 68 75 6a 61 6d 61 6c 69 7a 61 20 6b 77 61 6e 69 20 68 61 74 75 70 65 6e 64 69 20 6b 75 73 75 6d 62 75 61 20 6d 74 6f 74 6f 20 73 69 6b 75 20 68 69 79 6f 20 79 61 20 6b 75 66 75 6e 67 75 61 20 73 68 75 6c 65 2e 4c 69 70 61 20 6b 77 65 6e 79 65 20 61 63 63 6f 75 6e 74 20 79 61 20 4e 4d 42 20 6e 6f 20 34 30 38 31 30 31 32 30 35 34 34 20 61 75 20 4b 43 42 20 61 63 63 6f 75 6e 74 20 6e 6f 20 33 33 30 30 36 38 38 31 34 30 20 6a 69 6e 61 20 4c 61 64 79 20 6f 66 20 4d 65 72 63 79 2e 41 73 61 6e 74 65 
+[12-May-2021 19:19:57 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 19:19:57 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:19:57 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 19:19:57 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 33 00 00 00 02 38 32 36 33 34 35 37 36 34 31 31 37 30 35 36 36 37 32 33 00 
+[12-May-2021 19:19:57 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 19:19:57 Africa/Nairobi]  command status  : 0x33 Invalid number of destinations
+[12-May-2021 19:19:57 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:19:59 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:19:59 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:19:59 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:19:59 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:19:59 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:19:59 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:19:59 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:19:59 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:19:59 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:19:59 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:19:59 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:19:59 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:19:59 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:19:59 Africa/Nairobi] Send PDU         : 366 bytes
+[12-May-2021 19:19:59 Africa/Nairobi]  00 00 01 6e 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 4c 61 64 79 4f 66 4d 65 72 63 79 00 01 01 36 32 37 38 39 37 32 20 39 37 00 00 00 00 00 00 01 00 00 00 00 04 24 01 34 4e 64 75 67 75 20 6d 7a 61 7a 69 2f 6d 6c 65 7a 69 2c 20 4b 77 61 20 6d 61 72 61 20 6e 79 69 6e 67 69 6e 65 20 74 75 6e 61 6b 75 6b 75 6d 62 75 73 68 61 20 6b 75 77 61 2c 73 68 75 6c 65 20 69 74 61 66 75 6e 67 75 6c 69 77 61 20 74 61 72 65 68 65 20 31 32 2f 34 2f 32 30 32 31 20 68 69 76 79 6f 20 75 6e 61 6b 75 6d 62 75 73 68 77 61 20 6b 75 6d 61 6c 69 7a 61 20 6b 75 6c 69 70 61 20 61 64 61 20 6b 61 6d 61 20 62 61 64 6f 20 68 75 6a 61 6d 61 6c 69 7a 61 20 6b 77 61 6e 69 20 68 61 74 75 70 65 6e 64 69 20 6b 75 73 75 6d 62 75 61 20 6d 74 6f 74 6f 20 73 69 6b 75 20 68 69 79 6f 20 79 61 20 6b 75 66 75 6e 67 75 61 20 73 68 75 6c 65 2e 4c 69 70 61 20 6b 77 65 6e 79 65 20 61 63 63 6f 75 6e 74 20 79 61 20 4e 4d 42 20 6e 6f 20 34 30 38 31 30 31 32 30 35 34 34 20 61 75 20 4b 43 42 20 61 63 63 6f 75 6e 74 20 6e 6f 20 33 33 30 30 36 38 38 31 34 30 20 6a 69 6e 61 20 4c 61 64 79 20 6f 66 20 4d 65 72 63 79 2e 41 73 61 6e 74 65 
+[12-May-2021 19:19:59 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 19:19:59 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:19:59 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 19:19:59 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 33 00 00 00 02 38 32 35 30 34 31 34 35 35 34 38 32 35 34 36 37 31 36 39 00 
+[12-May-2021 19:19:59 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 19:19:59 Africa/Nairobi]  command status  : 0x33 Invalid number of destinations
+[12-May-2021 19:19:59 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:20:01 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:20:01 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:20:01 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:20:01 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:20:01 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:20:01 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:20:01 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:20:02 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:20:02 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:20:02 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:20:02 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:20:02 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:20:02 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:20:02 Africa/Nairobi] Send PDU         : 324 bytes
+[12-May-2021 19:20:02 Africa/Nairobi]  00 00 01 44 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 41 46 20 41 52 55 53 48 41 00 01 01 53 4e 20 00 00 00 00 00 00 01 00 00 00 00 04 24 01 13 42 6f 6e 6a 6f 75 72 20 21 20 57 65 20 6d 65 74 20 6c 61 73 74 20 77 65 65 6b 20 61 74 20 49 41 41 20 61 6e 64 20 77 65 20 77 61 6e 74 65 64 20 79 6f 75 20 74 6f 20 6a 6f 69 6e 20 74 68 65 20 46 72 65 6e 63 68 20 43 6c 75 62 20 62 79 20 41 6c 6c 69 61 6e 63 65 20 46 72 61 6e 63 61 69 73 65 20 62 75 74 20 66 69 72 73 74 2c 20 77 65 20 61 72 65 20 69 6e 76 69 74 69 6e 67 20 79 6f 75 20 66 6f 72 20 61 20 46 72 65 65 20 43 6c 61 73 73 20 74 68 69 73 20 74 68 75 72 73 64 61 79 20 31 35 74 68 20 6f 66 20 41 70 72 69 6c 20 61 74 20 49 41 41 20 2f 20 50 41 50 41 20 42 75 69 6c 64 69 6e 67 20 2f 20 43 48 20 34 2e 20 48 6f 70 65 20 79 6f 75 20 65 6e 6a 6f 79 20 21 20 43 6f 6e 74 61 63 74 20 4c 4f 52 4e 41 20 3a 20 30 37 36 37 20 30 34 38 20 32 39 30 20 6f 72 20 49 53 41 41 43 20 3a 20 30 37 36 32 20 31 36 38 20 31 30 30 2e 
+[12-May-2021 19:20:02 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 19:20:02 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:20:02 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 19:20:02 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 33 00 00 00 02 38 32 36 33 34 35 37 36 34 35 39 36 36 35 31 34 39 37 38 00 
+[12-May-2021 19:20:02 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 19:20:02 Africa/Nairobi]  command status  : 0x33 Invalid number of destinations
+[12-May-2021 19:20:02 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:20:04 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:20:04 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:20:04 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:20:04 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:20:04 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:20:04 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:20:04 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:20:05 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:20:05 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:20:05 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:20:05 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:20:05 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:20:05 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:20:05 Africa/Nairobi] Send PDU         : 322 bytes
+[12-May-2021 19:20:05 Africa/Nairobi]  00 00 01 42 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 41 46 20 41 52 55 53 48 41 00 01 01 32 00 00 00 00 00 00 01 00 00 00 00 04 24 01 13 42 6f 6e 6a 6f 75 72 20 21 20 57 65 20 6d 65 74 20 6c 61 73 74 20 77 65 65 6b 20 61 74 20 49 41 41 20 61 6e 64 20 77 65 20 77 61 6e 74 65 64 20 79 6f 75 20 74 6f 20 6a 6f 69 6e 20 74 68 65 20 46 72 65 6e 63 68 20 43 6c 75 62 20 62 79 20 41 6c 6c 69 61 6e 63 65 20 46 72 61 6e 63 61 69 73 65 20 62 75 74 20 66 69 72 73 74 2c 20 77 65 20 61 72 65 20 69 6e 76 69 74 69 6e 67 20 79 6f 75 20 66 6f 72 20 61 20 46 72 65 65 20 43 6c 61 73 73 20 74 68 69 73 20 74 68 75 72 73 64 61 79 20 31 35 74 68 20 6f 66 20 41 70 72 69 6c 20 61 74 20 49 41 41 20 2f 20 50 41 50 41 20 42 75 69 6c 64 69 6e 67 20 2f 20 43 48 20 34 2e 20 48 6f 70 65 20 79 6f 75 20 65 6e 6a 6f 79 20 21 20 43 6f 6e 74 61 63 74 20 4c 4f 52 4e 41 20 3a 20 30 37 36 37 20 30 34 38 20 32 39 30 20 6f 72 20 49 53 41 41 43 20 3a 20 30 37 36 32 20 31 36 38 20 31 30 30 2e 
+[12-May-2021 19:20:05 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 19:20:05 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:20:05 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 19:20:05 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 33 00 00 00 02 38 32 36 33 34 35 37 36 34 38 37 35 38 37 31 35 30 34 39 00 
+[12-May-2021 19:20:05 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 19:20:05 Africa/Nairobi]  command status  : 0x33 Invalid number of destinations
+[12-May-2021 19:20:05 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:20:07 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:20:07 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:20:07 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:20:07 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:20:07 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:20:07 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:20:07 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:20:08 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:20:08 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:20:08 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:20:08 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:20:08 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:20:08 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:20:08 Africa/Nairobi] Send PDU         : 322 bytes
+[12-May-2021 19:20:08 Africa/Nairobi]  00 00 01 42 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 41 46 20 41 52 55 53 48 41 00 01 01 33 00 00 00 00 00 00 01 00 00 00 00 04 24 01 13 42 6f 6e 6a 6f 75 72 20 21 20 57 65 20 6d 65 74 20 6c 61 73 74 20 77 65 65 6b 20 61 74 20 49 41 41 20 61 6e 64 20 77 65 20 77 61 6e 74 65 64 20 79 6f 75 20 74 6f 20 6a 6f 69 6e 20 74 68 65 20 46 72 65 6e 63 68 20 43 6c 75 62 20 62 79 20 41 6c 6c 69 61 6e 63 65 20 46 72 61 6e 63 61 69 73 65 20 62 75 74 20 66 69 72 73 74 2c 20 77 65 20 61 72 65 20 69 6e 76 69 74 69 6e 67 20 79 6f 75 20 66 6f 72 20 61 20 46 72 65 65 20 43 6c 61 73 73 20 74 68 69 73 20 74 68 75 72 73 64 61 79 20 31 35 74 68 20 6f 66 20 41 70 72 69 6c 20 61 74 20 49 41 41 20 2f 20 50 41 50 41 20 42 75 69 6c 64 69 6e 67 20 2f 20 43 48 20 34 2e 20 48 6f 70 65 20 79 6f 75 20 65 6e 6a 6f 79 20 21 20 43 6f 6e 74 61 63 74 20 4c 4f 52 4e 41 20 3a 20 30 37 36 37 20 30 34 38 20 32 39 30 20 6f 72 20 49 53 41 41 43 20 3a 20 30 37 36 32 20 31 36 38 20 31 30 30 2e 
+[12-May-2021 19:20:08 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 19:20:08 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:20:08 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 19:20:08 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 33 00 00 00 02 38 32 35 30 34 31 34 35 36 33 33 34 37 37 31 32 38 34 31 00 
+[12-May-2021 19:20:08 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 19:20:08 Africa/Nairobi]  command status  : 0x33 Invalid number of destinations
+[12-May-2021 19:20:08 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:20:10 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:20:10 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:20:10 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:20:10 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:20:10 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:20:10 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:20:10 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:20:10 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:20:10 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:20:10 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:20:10 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:20:10 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:20:10 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:20:10 Africa/Nairobi] Send PDU         : 322 bytes
+[12-May-2021 19:20:10 Africa/Nairobi]  00 00 01 42 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 41 46 20 41 52 55 53 48 41 00 01 01 34 00 00 00 00 00 00 01 00 00 00 00 04 24 01 13 42 6f 6e 6a 6f 75 72 20 21 20 57 65 20 6d 65 74 20 6c 61 73 74 20 77 65 65 6b 20 61 74 20 49 41 41 20 61 6e 64 20 77 65 20 77 61 6e 74 65 64 20 79 6f 75 20 74 6f 20 6a 6f 69 6e 20 74 68 65 20 46 72 65 6e 63 68 20 43 6c 75 62 20 62 79 20 41 6c 6c 69 61 6e 63 65 20 46 72 61 6e 63 61 69 73 65 20 62 75 74 20 66 69 72 73 74 2c 20 77 65 20 61 72 65 20 69 6e 76 69 74 69 6e 67 20 79 6f 75 20 66 6f 72 20 61 20 46 72 65 65 20 43 6c 61 73 73 20 74 68 69 73 20 74 68 75 72 73 64 61 79 20 31 35 74 68 20 6f 66 20 41 70 72 69 6c 20 61 74 20 49 41 41 20 2f 20 50 41 50 41 20 42 75 69 6c 64 69 6e 67 20 2f 20 43 48 20 34 2e 20 48 6f 70 65 20 79 6f 75 20 65 6e 6a 6f 79 20 21 20 43 6f 6e 74 61 63 74 20 4c 4f 52 4e 41 20 3a 20 30 37 36 37 20 30 34 38 20 32 39 30 20 6f 72 20 49 53 41 41 43 20 3a 20 30 37 36 32 20 31 36 38 20 31 30 30 2e 
+[12-May-2021 19:20:10 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 19:20:10 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:20:11 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 19:20:11 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 33 00 00 00 02 38 32 36 33 34 35 37 36 35 34 33 33 39 38 30 38 38 35 32 00 
+[12-May-2021 19:20:11 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 19:20:11 Africa/Nairobi]  command status  : 0x33 Invalid number of destinations
+[12-May-2021 19:20:11 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:20:14 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:20:14 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:20:14 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:20:14 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:20:14 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:20:14 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:20:14 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:20:14 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:20:14 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:20:14 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:20:14 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:20:14 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:20:14 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:20:14 Africa/Nairobi] Send PDU         : 322 bytes
+[12-May-2021 19:20:14 Africa/Nairobi]  00 00 01 42 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 41 46 20 41 52 55 53 48 41 00 01 01 35 00 00 00 00 00 00 01 00 00 00 00 04 24 01 13 42 6f 6e 6a 6f 75 72 20 21 20 57 65 20 6d 65 74 20 6c 61 73 74 20 77 65 65 6b 20 61 74 20 49 41 41 20 61 6e 64 20 77 65 20 77 61 6e 74 65 64 20 79 6f 75 20 74 6f 20 6a 6f 69 6e 20 74 68 65 20 46 72 65 6e 63 68 20 43 6c 75 62 20 62 79 20 41 6c 6c 69 61 6e 63 65 20 46 72 61 6e 63 61 69 73 65 20 62 75 74 20 66 69 72 73 74 2c 20 77 65 20 61 72 65 20 69 6e 76 69 74 69 6e 67 20 79 6f 75 20 66 6f 72 20 61 20 46 72 65 65 20 43 6c 61 73 73 20 74 68 69 73 20 74 68 75 72 73 64 61 79 20 31 35 74 68 20 6f 66 20 41 70 72 69 6c 20 61 74 20 49 41 41 20 2f 20 50 41 50 41 20 42 75 69 6c 64 69 6e 67 20 2f 20 43 48 20 34 2e 20 48 6f 70 65 20 79 6f 75 20 65 6e 6a 6f 79 20 21 20 43 6f 6e 74 61 63 74 20 4c 4f 52 4e 41 20 3a 20 30 37 36 37 20 30 34 38 20 32 39 30 20 6f 72 20 49 53 41 41 43 20 3a 20 30 37 36 32 20 31 36 38 20 31 30 30 2e 
+[12-May-2021 19:20:14 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 19:20:14 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:20:14 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 19:20:14 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 33 00 00 00 02 38 32 36 33 34 35 37 36 35 38 32 34 36 33 30 37 32 33 30 00 
+[12-May-2021 19:20:14 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 19:20:14 Africa/Nairobi]  command status  : 0x33 Invalid number of destinations
+[12-May-2021 19:20:14 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:20:16 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:20:16 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:20:16 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:20:16 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:20:16 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:20:16 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:20:16 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:20:17 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:20:17 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:20:17 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:20:17 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:20:17 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:20:17 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:20:17 Africa/Nairobi] Send PDU         : 322 bytes
+[12-May-2021 19:20:17 Africa/Nairobi]  00 00 01 42 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 41 46 20 41 52 55 53 48 41 00 01 01 36 00 00 00 00 00 00 01 00 00 00 00 04 24 01 13 42 6f 6e 6a 6f 75 72 20 21 20 57 65 20 6d 65 74 20 6c 61 73 74 20 77 65 65 6b 20 61 74 20 49 41 41 20 61 6e 64 20 77 65 20 77 61 6e 74 65 64 20 79 6f 75 20 74 6f 20 6a 6f 69 6e 20 74 68 65 20 46 72 65 6e 63 68 20 43 6c 75 62 20 62 79 20 41 6c 6c 69 61 6e 63 65 20 46 72 61 6e 63 61 69 73 65 20 62 75 74 20 66 69 72 73 74 2c 20 77 65 20 61 72 65 20 69 6e 76 69 74 69 6e 67 20 79 6f 75 20 66 6f 72 20 61 20 46 72 65 65 20 43 6c 61 73 73 20 74 68 69 73 20 74 68 75 72 73 64 61 79 20 31 35 74 68 20 6f 66 20 41 70 72 69 6c 20 61 74 20 49 41 41 20 2f 20 50 41 50 41 20 42 75 69 6c 64 69 6e 67 20 2f 20 43 48 20 34 2e 20 48 6f 70 65 20 79 6f 75 20 65 6e 6a 6f 79 20 21 20 43 6f 6e 74 61 63 74 20 4c 4f 52 4e 41 20 3a 20 30 37 36 37 20 30 34 38 20 32 39 30 20 6f 72 20 49 53 41 41 43 20 3a 20 30 37 36 32 20 31 36 38 20 31 30 30 2e 
+[12-May-2021 19:20:17 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 19:20:17 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:20:17 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 19:20:17 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 33 00 00 00 02 38 32 35 30 34 31 34 35 37 32 31 32 39 39 39 39 33 35 33 00 
+[12-May-2021 19:20:17 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 19:20:17 Africa/Nairobi]  command status  : 0x33 Invalid number of destinations
+[12-May-2021 19:20:17 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:20:51 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:20:51 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:20:51 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:20:51 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:20:51 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:20:51 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:20:51 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:20:51 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:20:51 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:20:51 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:20:51 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:20:51 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:20:51 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:20:51 Africa/Nairobi] Send PDU         : 322 bytes
+[12-May-2021 19:20:51 Africa/Nairobi]  00 00 01 42 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 41 46 20 41 52 55 53 48 41 00 01 01 37 00 00 00 00 00 00 01 00 00 00 00 04 24 01 13 42 6f 6e 6a 6f 75 72 20 21 20 57 65 20 6d 65 74 20 6c 61 73 74 20 77 65 65 6b 20 61 74 20 49 41 41 20 61 6e 64 20 77 65 20 77 61 6e 74 65 64 20 79 6f 75 20 74 6f 20 6a 6f 69 6e 20 74 68 65 20 46 72 65 6e 63 68 20 43 6c 75 62 20 62 79 20 41 6c 6c 69 61 6e 63 65 20 46 72 61 6e 63 61 69 73 65 20 62 75 74 20 66 69 72 73 74 2c 20 77 65 20 61 72 65 20 69 6e 76 69 74 69 6e 67 20 79 6f 75 20 66 6f 72 20 61 20 46 72 65 65 20 43 6c 61 73 73 20 74 68 69 73 20 74 68 75 72 73 64 61 79 20 31 35 74 68 20 6f 66 20 41 70 72 69 6c 20 61 74 20 49 41 41 20 2f 20 50 41 50 41 20 42 75 69 6c 64 69 6e 67 20 2f 20 43 48 20 34 2e 20 48 6f 70 65 20 79 6f 75 20 65 6e 6a 6f 79 20 21 20 43 6f 6e 74 61 63 74 20 4c 4f 52 4e 41 20 3a 20 30 37 36 37 20 30 34 38 20 32 39 30 20 6f 72 20 49 53 41 41 43 20 3a 20 30 37 36 32 20 31 36 38 20 31 30 30 2e 
+[12-May-2021 19:20:51 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 19:20:51 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:20:52 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 19:20:52 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 33 00 00 00 02 38 32 35 30 34 31 34 36 30 36 39 37 32 36 37 35 30 32 36 00 
+[12-May-2021 19:20:52 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 19:20:52 Africa/Nairobi]  command status  : 0x33 Invalid number of destinations
+[12-May-2021 19:20:52 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:20:56 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:20:56 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:20:56 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:20:56 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:20:56 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:20:56 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:20:56 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:20:56 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:20:56 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:20:56 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:20:56 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:20:56 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:20:56 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:20:56 Africa/Nairobi] Send PDU         : 322 bytes
+[12-May-2021 19:20:56 Africa/Nairobi]  00 00 01 42 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 41 46 20 41 52 55 53 48 41 00 01 01 38 00 00 00 00 00 00 01 00 00 00 00 04 24 01 13 42 6f 6e 6a 6f 75 72 20 21 20 57 65 20 6d 65 74 20 6c 61 73 74 20 77 65 65 6b 20 61 74 20 49 41 41 20 61 6e 64 20 77 65 20 77 61 6e 74 65 64 20 79 6f 75 20 74 6f 20 6a 6f 69 6e 20 74 68 65 20 46 72 65 6e 63 68 20 43 6c 75 62 20 62 79 20 41 6c 6c 69 61 6e 63 65 20 46 72 61 6e 63 61 69 73 65 20 62 75 74 20 66 69 72 73 74 2c 20 77 65 20 61 72 65 20 69 6e 76 69 74 69 6e 67 20 79 6f 75 20 66 6f 72 20 61 20 46 72 65 65 20 43 6c 61 73 73 20 74 68 69 73 20 74 68 75 72 73 64 61 79 20 31 35 74 68 20 6f 66 20 41 70 72 69 6c 20 61 74 20 49 41 41 20 2f 20 50 41 50 41 20 42 75 69 6c 64 69 6e 67 20 2f 20 43 48 20 34 2e 20 48 6f 70 65 20 79 6f 75 20 65 6e 6a 6f 79 20 21 20 43 6f 6e 74 61 63 74 20 4c 4f 52 4e 41 20 3a 20 30 37 36 37 20 30 34 38 20 32 39 30 20 6f 72 20 49 53 41 41 43 20 3a 20 30 37 36 32 20 31 36 38 20 31 30 30 2e 
+[12-May-2021 19:20:56 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 19:20:56 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:20:56 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 19:20:56 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 33 00 00 00 02 38 32 36 33 34 35 37 37 30 30 32 35 31 35 36 35 32 36 34 00 
+[12-May-2021 19:20:56 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 19:20:56 Africa/Nairobi]  command status  : 0x33 Invalid number of destinations
+[12-May-2021 19:20:56 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:20:58 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:20:58 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:20:58 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:20:58 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:20:58 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:20:58 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:20:58 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:20:59 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:20:59 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:20:59 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:20:59 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:20:59 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:20:59 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:20:59 Africa/Nairobi] Send PDU         : 322 bytes
+[12-May-2021 19:20:59 Africa/Nairobi]  00 00 01 42 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 41 46 20 41 52 55 53 48 41 00 01 01 39 00 00 00 00 00 00 01 00 00 00 00 04 24 01 13 42 6f 6e 6a 6f 75 72 20 21 20 57 65 20 6d 65 74 20 6c 61 73 74 20 77 65 65 6b 20 61 74 20 49 41 41 20 61 6e 64 20 77 65 20 77 61 6e 74 65 64 20 79 6f 75 20 74 6f 20 6a 6f 69 6e 20 74 68 65 20 46 72 65 6e 63 68 20 43 6c 75 62 20 62 79 20 41 6c 6c 69 61 6e 63 65 20 46 72 61 6e 63 61 69 73 65 20 62 75 74 20 66 69 72 73 74 2c 20 77 65 20 61 72 65 20 69 6e 76 69 74 69 6e 67 20 79 6f 75 20 66 6f 72 20 61 20 46 72 65 65 20 43 6c 61 73 73 20 74 68 69 73 20 74 68 75 72 73 64 61 79 20 31 35 74 68 20 6f 66 20 41 70 72 69 6c 20 61 74 20 49 41 41 20 2f 20 50 41 50 41 20 42 75 69 6c 64 69 6e 67 20 2f 20 43 48 20 34 2e 20 48 6f 70 65 20 79 6f 75 20 65 6e 6a 6f 79 20 21 20 43 6f 6e 74 61 63 74 20 4c 4f 52 4e 41 20 3a 20 30 37 36 37 20 30 34 38 20 32 39 30 20 6f 72 20 49 53 41 41 43 20 3a 20 30 37 36 32 20 31 36 38 20 31 30 30 2e 
+[12-May-2021 19:20:59 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 19:20:59 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:20:59 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 19:20:59 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 33 00 00 00 02 38 32 35 30 34 31 34 36 31 34 33 33 32 30 33 35 34 37 30 00 
+[12-May-2021 19:20:59 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 19:20:59 Africa/Nairobi]  command status  : 0x33 Invalid number of destinations
+[12-May-2021 19:20:59 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:22:58 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:22:58 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:22:58 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:22:58 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:22:58 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:22:58 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:22:58 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:22:59 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:22:59 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:22:59 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:22:59 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:22:59 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:22:59 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:22:59 Africa/Nairobi] Send PDU         : 285 bytes
+[12-May-2021 19:22:59 Africa/Nairobi]  00 00 01 1d 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 45 4e 47 41 52 45 4e 41 52 4f 4b 00 01 01 37 35 36 20 39 33 36 33 32 39 00 00 00 00 00 00 01 00 00 00 00 04 24 00 e3 53 68 61 6c 6f 6d 20 4d 70 65 6e 64 77 61 2c 20 6a 75 6d 61 70 69 6c 69 20 74 61 72 65 68 65 20 20 31 38 2f 34 2f 32 30 32 31 20 6e 69 20 53 69 6b 75 6b 75 75 20 79 61 20 66 61 6d 69 6c 69 61 2e 4e 61 6b 75 73 68 75 6b 75 72 75 20 6b 77 61 20 6b 75 6a 69 74 6f 61 20 6b 77 61 6b 6f 20 6b 75 6d 74 75 6d 69 6b 69 61 20 4d 75 6e 67 75 2c 20 68 69 76 79 6f 20 6e 6a 6f 6f 20 6e 61 20 73 61 64 61 6b 61 20 79 61 6b 6f 20 4d 75 6e 67 75 20 61 6c 69 79 6f 20 6b 75 6a 61 6c 69 61 20 69 6c 69 20 74 75 77 65 7a 65 20 6b 75 73 68 75 6b 61 20 6d 6c 69 6d 61 6e 69 20 70 61 6d 6f 6a 61 2c 20 4d 75 6e 67 75 20 61 6b 75 62 61 72 69 6b 69 20 73 61 6e 61 2e 20 4d 77 6e 6a 20 4d 61 6b 75 6c 65 
+[12-May-2021 19:22:59 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 19:22:59 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:22:59 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 19:22:59 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 33 00 00 00 02 38 32 35 30 34 31 34 37 33 34 33 33 36 38 36 30 34 37 31 00 
+[12-May-2021 19:22:59 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 19:22:59 Africa/Nairobi]  command status  : 0x33 Invalid number of destinations
+[12-May-2021 19:22:59 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:25:34 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:25:34 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:25:34 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:25:34 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:25:34 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:25:34 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:25:34 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:25:35 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:25:35 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:25:35 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:25:35 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:25:35 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:25:35 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:25:35 Africa/Nairobi] Send PDU         : 285 bytes
+[12-May-2021 19:25:35 Africa/Nairobi]  00 00 01 1d 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 45 4e 47 41 52 45 4e 41 52 4f 4b 00 01 01 37 35 39 20 39 33 33 36 33 36 00 00 00 00 00 00 01 00 00 00 00 04 24 00 e3 53 68 61 6c 6f 6d 20 4d 70 65 6e 64 77 61 2c 20 6a 75 6d 61 70 69 6c 69 20 74 61 72 65 68 65 20 20 31 38 2f 34 2f 32 30 32 31 20 6e 69 20 53 69 6b 75 6b 75 75 20 79 61 20 66 61 6d 69 6c 69 61 2e 4e 61 6b 75 73 68 75 6b 75 72 75 20 6b 77 61 20 6b 75 6a 69 74 6f 61 20 6b 77 61 6b 6f 20 6b 75 6d 74 75 6d 69 6b 69 61 20 4d 75 6e 67 75 2c 20 68 69 76 79 6f 20 6e 6a 6f 6f 20 6e 61 20 73 61 64 61 6b 61 20 79 61 6b 6f 20 4d 75 6e 67 75 20 61 6c 69 79 6f 20 6b 75 6a 61 6c 69 61 20 69 6c 69 20 74 75 77 65 7a 65 20 6b 75 73 68 75 6b 61 20 6d 6c 69 6d 61 6e 69 20 70 61 6d 6f 6a 61 2c 20 4d 75 6e 67 75 20 61 6b 75 62 61 72 69 6b 69 20 73 61 6e 61 2e 20 4d 77 6e 6a 20 4d 61 6b 75 6c 65 
+[12-May-2021 19:25:35 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 19:25:35 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:25:35 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 19:25:35 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 33 00 00 00 02 38 32 35 30 34 31 34 38 39 30 32 36 33 30 31 33 33 35 34 00 
+[12-May-2021 19:25:35 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 19:25:35 Africa/Nairobi]  command status  : 0x33 Invalid number of destinations
+[12-May-2021 19:25:35 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:27:54 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:27:54 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:27:54 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:27:54 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:27:54 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:27:54 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:27:54 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:27:54 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:27:54 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:27:54 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:27:54 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:27:54 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:27:54 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:28:29 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:28:29 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:28:29 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:28:29 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:28:29 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:28:29 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:28:29 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:28:29 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:28:29 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:28:29 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:28:29 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:28:29 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:28:29 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:28:29 Africa/Nairobi] Send PDU         : 284 bytes
+[12-May-2021 19:28:29 Africa/Nairobi]  00 00 01 1c 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 45 4e 47 41 52 45 4e 41 52 4f 4b 00 01 01 37 35 32 33 30 39 30 37 39 00 00 00 00 00 00 01 00 00 00 00 04 24 00 e3 53 68 61 6c 6f 6d 20 4d 70 65 6e 64 77 61 2c 20 6a 75 6d 61 70 69 6c 69 20 74 61 72 65 68 65 20 20 31 38 2f 34 2f 32 30 32 31 20 6e 69 20 53 69 6b 75 6b 75 75 20 79 61 20 66 61 6d 69 6c 69 61 2e 4e 61 6b 75 73 68 75 6b 75 72 75 20 6b 77 61 20 6b 75 6a 69 74 6f 61 20 6b 77 61 6b 6f 20 6b 75 6d 74 75 6d 69 6b 69 61 20 4d 75 6e 67 75 2c 20 68 69 76 79 6f 20 6e 6a 6f 6f 20 6e 61 20 73 61 64 61 6b 61 20 79 61 6b 6f 20 4d 75 6e 67 75 20 61 6c 69 79 6f 20 6b 75 6a 61 6c 69 61 20 69 6c 69 20 74 75 77 65 7a 65 20 6b 75 73 68 75 6b 61 20 6d 6c 69 6d 61 6e 69 20 70 61 6d 6f 6a 61 2c 20 4d 75 6e 67 75 20 61 6b 75 62 61 72 69 6b 69 20 73 61 6e 61 2e 20 4d 77 6e 6a 20 4d 61 6b 75 6c 65 
+[12-May-2021 19:28:29 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 19:28:29 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:28:30 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 19:28:30 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 00 00 00 00 02 38 32 35 30 34 31 35 30 36 34 39 39 33 35 38 37 31 34 33 00 
+[12-May-2021 19:28:30 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 19:28:30 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:28:30 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:28:30 Africa/Nairobi] Unbinding...
+[12-May-2021 19:28:30 Africa/Nairobi] Send PDU         : 16 bytes
+[12-May-2021 19:28:30 Africa/Nairobi]  00 00 00 10 00 00 00 06 00 00 00 00 00 00 00 03 
+[12-May-2021 19:28:30 Africa/Nairobi]  command_id      : 0x6
+[12-May-2021 19:28:30 Africa/Nairobi]  sequence number : 3
+[12-May-2021 19:28:30 Africa/Nairobi] Read PDU         : 16 bytes
+[12-May-2021 19:28:30 Africa/Nairobi]  00 00 00 10 80 00 00 06 00 00 00 00 00 00 00 03 
+[12-May-2021 19:28:30 Africa/Nairobi]  command id      : 0x80000006
+[12-May-2021 19:28:30 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:28:30 Africa/Nairobi]  sequence number : 3
+[12-May-2021 19:28:30 Africa/Nairobi] Unbind status   : 0
+[12-May-2021 19:28:45 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:28:45 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:28:45 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:28:45 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:28:45 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:28:45 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:28:45 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:28:45 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:28:45 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:28:45 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:28:45 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:28:45 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:28:45 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:34:21 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 19:34:21 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 19:34:21 Africa/Nairobi] Binding transmitter...
+[12-May-2021 19:34:21 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 19:34:21 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 19:34:21 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 19:34:21 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:34:22 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 19:34:22 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 19:34:22 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 19:34:22 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:34:22 Africa/Nairobi]  sequence number : 1
+[12-May-2021 19:34:22 Africa/Nairobi] Binding status  : 0
+[12-May-2021 19:34:22 Africa/Nairobi] Send PDU         : 137 bytes
+[12-May-2021 19:34:22 Africa/Nairobi]  00 00 00 89 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 4d 41 5a 55 42 55 00 01 01 32 35 35 37 34 37 39 37 34 39 32 32 00 00 00 00 00 00 01 00 00 00 56 44 65 61 72 20 43 75 73 74 6f 6d 65 72 2c 20 57 65 6c 63 6f 6d 65 20 74 6f 20 4b 4d 54 20 4d 61 7a 75 62 75 20 47 72 61 6e 64 20 48 6f 74 65 6c 2e 20 57 65 20 68 6f 70 65 20 79 6f 75 20 65 6e 6a 6f 79 20 79 6f 75 72 20 73 74 61 79 20 77 69 74 68 20 75 73 2e 
+[12-May-2021 19:34:22 Africa/Nairobi]  command_id      : 0x4
+[12-May-2021 19:34:22 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:34:22 Africa/Nairobi] Read PDU         : 36 bytes
+[12-May-2021 19:34:22 Africa/Nairobi]  00 00 00 24 80 00 00 04 00 00 00 00 00 00 00 02 38 32 35 30 34 31 35 34 31 37 31 35 39 32 35 38 33 36 31 00 
+[12-May-2021 19:34:22 Africa/Nairobi]  command id      : 0x80000004
+[12-May-2021 19:34:22 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:34:22 Africa/Nairobi]  sequence number : 2
+[12-May-2021 19:34:22 Africa/Nairobi] Unbinding...
+[12-May-2021 19:34:22 Africa/Nairobi] Send PDU         : 16 bytes
+[12-May-2021 19:34:22 Africa/Nairobi]  00 00 00 10 00 00 00 06 00 00 00 00 00 00 00 03 
+[12-May-2021 19:34:22 Africa/Nairobi]  command_id      : 0x6
+[12-May-2021 19:34:22 Africa/Nairobi]  sequence number : 3
+[12-May-2021 19:34:22 Africa/Nairobi] Read PDU         : 16 bytes
+[12-May-2021 19:34:22 Africa/Nairobi]  00 00 00 10 80 00 00 06 00 00 00 00 00 00 00 03 
+[12-May-2021 19:34:22 Africa/Nairobi]  command id      : 0x80000006
+[12-May-2021 19:34:22 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 19:34:22 Africa/Nairobi]  sequence number : 3
+[12-May-2021 19:34:22 Africa/Nairobi] Unbind status   : 0
+[12-May-2021 20:10:45 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[12-May-2021 20:10:45 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[12-May-2021 20:10:45 Africa/Nairobi] Binding transmitter...
+[12-May-2021 20:10:45 Africa/Nairobi] Send PDU         : 43 bytes
+[12-May-2021 20:10:45 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[12-May-2021 20:10:45 Africa/Nairobi]  command_id      : 0x2
+[12-May-2021 20:10:45 Africa/Nairobi]  sequence number : 1
+[12-May-2021 20:10:45 Africa/Nairobi] Read PDU         : 25 bytes
+[12-May-2021 20:10:45 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[12-May-2021 20:10:45 Africa/Nairobi]  command id      : 0x80000002
+[12-May-2021 20:10:45 Africa/Nairobi]  command status  : 0x0 No Error
+[12-May-2021 20:10:45 Africa/Nairobi]  sequence number : 1
+[12-May-2021 20:10:45 Africa/Nairobi] Binding status  : 0
+[30-Jun-2021 15:43:37 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[30-Jun-2021 15:43:37 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[30-Jun-2021 15:43:37 Africa/Nairobi] Binding transmitter...
+[30-Jun-2021 15:43:37 Africa/Nairobi] Send PDU         : 43 bytes
+[30-Jun-2021 15:43:37 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[30-Jun-2021 15:43:37 Africa/Nairobi]  command_id      : 0x2
+[30-Jun-2021 15:43:37 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 15:43:38 Africa/Nairobi] Read PDU         : 25 bytes
+[30-Jun-2021 15:43:38 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 45 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[30-Jun-2021 15:43:38 Africa/Nairobi]  command id      : 0x80000002
+[30-Jun-2021 15:43:38 Africa/Nairobi]  command status  : 0x45 submit_sm or submit_multi failed
+[30-Jun-2021 15:43:38 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 15:43:48 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[30-Jun-2021 15:43:49 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[30-Jun-2021 15:43:49 Africa/Nairobi] Binding transmitter...
+[30-Jun-2021 15:43:49 Africa/Nairobi] Send PDU         : 43 bytes
+[30-Jun-2021 15:43:49 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[30-Jun-2021 15:43:49 Africa/Nairobi]  command_id      : 0x2
+[30-Jun-2021 15:43:49 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 15:43:49 Africa/Nairobi] Read PDU         : 25 bytes
+[30-Jun-2021 15:43:49 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 45 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[30-Jun-2021 15:43:49 Africa/Nairobi]  command id      : 0x80000002
+[30-Jun-2021 15:43:49 Africa/Nairobi]  command status  : 0x45 submit_sm or submit_multi failed
+[30-Jun-2021 15:43:49 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 15:43:55 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[30-Jun-2021 15:43:55 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[30-Jun-2021 15:43:55 Africa/Nairobi] Binding transmitter...
+[30-Jun-2021 15:43:55 Africa/Nairobi] Send PDU         : 43 bytes
+[30-Jun-2021 15:43:55 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[30-Jun-2021 15:43:55 Africa/Nairobi]  command_id      : 0x2
+[30-Jun-2021 15:43:55 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 15:43:55 Africa/Nairobi] Read PDU         : 25 bytes
+[30-Jun-2021 15:43:55 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 45 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[30-Jun-2021 15:43:55 Africa/Nairobi]  command id      : 0x80000002
+[30-Jun-2021 15:43:55 Africa/Nairobi]  command status  : 0x45 submit_sm or submit_multi failed
+[30-Jun-2021 15:43:55 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 15:44:01 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[30-Jun-2021 15:44:01 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[30-Jun-2021 15:44:01 Africa/Nairobi] Binding transmitter...
+[30-Jun-2021 15:44:01 Africa/Nairobi] Send PDU         : 43 bytes
+[30-Jun-2021 15:44:01 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[30-Jun-2021 15:44:01 Africa/Nairobi]  command_id      : 0x2
+[30-Jun-2021 15:44:01 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 15:44:01 Africa/Nairobi] Read PDU         : 25 bytes
+[30-Jun-2021 15:44:01 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 45 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[30-Jun-2021 15:44:01 Africa/Nairobi]  command id      : 0x80000002
+[30-Jun-2021 15:44:01 Africa/Nairobi]  command status  : 0x45 submit_sm or submit_multi failed
+[30-Jun-2021 15:44:01 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 15:55:57 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[30-Jun-2021 15:55:57 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[30-Jun-2021 15:55:57 Africa/Nairobi] Binding transmitter...
+[30-Jun-2021 15:55:57 Africa/Nairobi] Send PDU         : 43 bytes
+[30-Jun-2021 15:55:57 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[30-Jun-2021 15:55:57 Africa/Nairobi]  command_id      : 0x2
+[30-Jun-2021 15:55:57 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 15:55:58 Africa/Nairobi] Read PDU         : 25 bytes
+[30-Jun-2021 15:55:58 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 45 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[30-Jun-2021 15:55:58 Africa/Nairobi]  command id      : 0x80000002
+[30-Jun-2021 15:55:58 Africa/Nairobi]  command status  : 0x45 submit_sm or submit_multi failed
+[30-Jun-2021 15:55:58 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 16:05:20 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[30-Jun-2021 16:05:20 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[30-Jun-2021 16:05:20 Africa/Nairobi] Binding transmitter...
+[30-Jun-2021 16:05:20 Africa/Nairobi] Send PDU         : 43 bytes
+[30-Jun-2021 16:05:20 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[30-Jun-2021 16:05:20 Africa/Nairobi]  command_id      : 0x2
+[30-Jun-2021 16:05:20 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 16:05:21 Africa/Nairobi] Read PDU         : 25 bytes
+[30-Jun-2021 16:05:21 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 45 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[30-Jun-2021 16:05:21 Africa/Nairobi]  command id      : 0x80000002
+[30-Jun-2021 16:05:21 Africa/Nairobi]  command status  : 0x45 submit_sm or submit_multi failed
+[30-Jun-2021 16:05:21 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 16:14:31 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[30-Jun-2021 16:14:31 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[30-Jun-2021 16:14:31 Africa/Nairobi] Binding transmitter...
+[30-Jun-2021 16:14:31 Africa/Nairobi] Send PDU         : 43 bytes
+[30-Jun-2021 16:14:31 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[30-Jun-2021 16:14:31 Africa/Nairobi]  command_id      : 0x2
+[30-Jun-2021 16:14:31 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 16:14:32 Africa/Nairobi] Read PDU         : 25 bytes
+[30-Jun-2021 16:14:32 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 45 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[30-Jun-2021 16:14:32 Africa/Nairobi]  command id      : 0x80000002
+[30-Jun-2021 16:14:32 Africa/Nairobi]  command status  : 0x45 submit_sm or submit_multi failed
+[30-Jun-2021 16:14:32 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 16:14:38 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[30-Jun-2021 16:14:38 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[30-Jun-2021 16:14:38 Africa/Nairobi] Binding transmitter...
+[30-Jun-2021 16:14:38 Africa/Nairobi] Send PDU         : 43 bytes
+[30-Jun-2021 16:14:38 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[30-Jun-2021 16:14:38 Africa/Nairobi]  command_id      : 0x2
+[30-Jun-2021 16:14:38 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 16:14:38 Africa/Nairobi] Read PDU         : 25 bytes
+[30-Jun-2021 16:14:38 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 45 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[30-Jun-2021 16:14:38 Africa/Nairobi]  command id      : 0x80000002
+[30-Jun-2021 16:14:38 Africa/Nairobi]  command status  : 0x45 submit_sm or submit_multi failed
+[30-Jun-2021 16:14:38 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 16:14:57 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[30-Jun-2021 16:14:57 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[30-Jun-2021 16:14:57 Africa/Nairobi] Binding transmitter...
+[30-Jun-2021 16:14:57 Africa/Nairobi] Send PDU         : 43 bytes
+[30-Jun-2021 16:14:57 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[30-Jun-2021 16:14:57 Africa/Nairobi]  command_id      : 0x2
+[30-Jun-2021 16:14:57 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 16:14:58 Africa/Nairobi] Read PDU         : 25 bytes
+[30-Jun-2021 16:14:58 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 45 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[30-Jun-2021 16:14:58 Africa/Nairobi]  command id      : 0x80000002
+[30-Jun-2021 16:14:58 Africa/Nairobi]  command status  : 0x45 submit_sm or submit_multi failed
+[30-Jun-2021 16:14:58 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 16:15:03 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[30-Jun-2021 16:15:03 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[30-Jun-2021 16:15:03 Africa/Nairobi] Binding transmitter...
+[30-Jun-2021 16:15:03 Africa/Nairobi] Send PDU         : 43 bytes
+[30-Jun-2021 16:15:03 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[30-Jun-2021 16:15:03 Africa/Nairobi]  command_id      : 0x2
+[30-Jun-2021 16:15:03 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 16:15:03 Africa/Nairobi] Read PDU         : 25 bytes
+[30-Jun-2021 16:15:03 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 45 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[30-Jun-2021 16:15:03 Africa/Nairobi]  command id      : 0x80000002
+[30-Jun-2021 16:15:03 Africa/Nairobi]  command status  : 0x45 submit_sm or submit_multi failed
+[30-Jun-2021 16:15:03 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 16:29:45 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[30-Jun-2021 16:29:46 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[30-Jun-2021 16:29:46 Africa/Nairobi] Binding transmitter...
+[30-Jun-2021 16:29:46 Africa/Nairobi] Send PDU         : 43 bytes
+[30-Jun-2021 16:29:46 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[30-Jun-2021 16:29:46 Africa/Nairobi]  command_id      : 0x2
+[30-Jun-2021 16:29:46 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 16:29:46 Africa/Nairobi] Read PDU         : 25 bytes
+[30-Jun-2021 16:29:46 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 45 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[30-Jun-2021 16:29:46 Africa/Nairobi]  command id      : 0x80000002
+[30-Jun-2021 16:29:46 Africa/Nairobi]  command status  : 0x45 submit_sm or submit_multi failed
+[30-Jun-2021 16:29:46 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 16:30:29 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[30-Jun-2021 16:30:29 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[30-Jun-2021 16:30:29 Africa/Nairobi] Binding transmitter...
+[30-Jun-2021 16:30:29 Africa/Nairobi] Send PDU         : 43 bytes
+[30-Jun-2021 16:30:29 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[30-Jun-2021 16:30:29 Africa/Nairobi]  command_id      : 0x2
+[30-Jun-2021 16:30:29 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 16:30:30 Africa/Nairobi] Read PDU         : 25 bytes
+[30-Jun-2021 16:30:30 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 45 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[30-Jun-2021 16:30:30 Africa/Nairobi]  command id      : 0x80000002
+[30-Jun-2021 16:30:30 Africa/Nairobi]  command status  : 0x45 submit_sm or submit_multi failed
+[30-Jun-2021 16:30:30 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 16:31:45 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[30-Jun-2021 16:31:46 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[30-Jun-2021 16:31:46 Africa/Nairobi] Binding transmitter...
+[30-Jun-2021 16:31:46 Africa/Nairobi] Send PDU         : 43 bytes
+[30-Jun-2021 16:31:46 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[30-Jun-2021 16:31:46 Africa/Nairobi]  command_id      : 0x2
+[30-Jun-2021 16:31:46 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 16:31:46 Africa/Nairobi] Read PDU         : 25 bytes
+[30-Jun-2021 16:31:46 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 45 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[30-Jun-2021 16:31:46 Africa/Nairobi]  command id      : 0x80000002
+[30-Jun-2021 16:31:46 Africa/Nairobi]  command status  : 0x45 submit_sm or submit_multi failed
+[30-Jun-2021 16:31:46 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 16:34:12 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[30-Jun-2021 16:34:12 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[30-Jun-2021 16:34:12 Africa/Nairobi] Binding transmitter...
+[30-Jun-2021 16:34:12 Africa/Nairobi] Send PDU         : 43 bytes
+[30-Jun-2021 16:34:12 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[30-Jun-2021 16:34:12 Africa/Nairobi]  command_id      : 0x2
+[30-Jun-2021 16:34:12 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 16:34:12 Africa/Nairobi] Read PDU         : 25 bytes
+[30-Jun-2021 16:34:12 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 45 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[30-Jun-2021 16:34:12 Africa/Nairobi]  command id      : 0x80000002
+[30-Jun-2021 16:34:12 Africa/Nairobi]  command status  : 0x45 submit_sm or submit_multi failed
+[30-Jun-2021 16:34:12 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 16:34:53 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[30-Jun-2021 16:34:53 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[30-Jun-2021 16:34:53 Africa/Nairobi] Binding transmitter...
+[30-Jun-2021 16:34:53 Africa/Nairobi] Send PDU         : 43 bytes
+[30-Jun-2021 16:34:53 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[30-Jun-2021 16:34:53 Africa/Nairobi]  command_id      : 0x2
+[30-Jun-2021 16:34:53 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 16:34:54 Africa/Nairobi] Read PDU         : 25 bytes
+[30-Jun-2021 16:34:54 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 45 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[30-Jun-2021 16:34:54 Africa/Nairobi]  command id      : 0x80000002
+[30-Jun-2021 16:34:54 Africa/Nairobi]  command status  : 0x45 submit_sm or submit_multi failed
+[30-Jun-2021 16:34:54 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 16:35:27 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[30-Jun-2021 16:35:28 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[30-Jun-2021 16:35:28 Africa/Nairobi] Binding transmitter...
+[30-Jun-2021 16:35:28 Africa/Nairobi] Send PDU         : 43 bytes
+[30-Jun-2021 16:35:28 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[30-Jun-2021 16:35:28 Africa/Nairobi]  command_id      : 0x2
+[30-Jun-2021 16:35:28 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 16:35:28 Africa/Nairobi] Read PDU         : 25 bytes
+[30-Jun-2021 16:35:28 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 45 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[30-Jun-2021 16:35:28 Africa/Nairobi]  command id      : 0x80000002
+[30-Jun-2021 16:35:28 Africa/Nairobi]  command status  : 0x45 submit_sm or submit_multi failed
+[30-Jun-2021 16:35:28 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 16:36:16 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[30-Jun-2021 16:36:16 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[30-Jun-2021 16:36:16 Africa/Nairobi] Binding transmitter...
+[30-Jun-2021 16:36:16 Africa/Nairobi] Send PDU         : 43 bytes
+[30-Jun-2021 16:36:16 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[30-Jun-2021 16:36:16 Africa/Nairobi]  command_id      : 0x2
+[30-Jun-2021 16:36:16 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 16:36:16 Africa/Nairobi] Read PDU         : 25 bytes
+[30-Jun-2021 16:36:16 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 45 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[30-Jun-2021 16:36:16 Africa/Nairobi]  command id      : 0x80000002
+[30-Jun-2021 16:36:16 Africa/Nairobi]  command status  : 0x45 submit_sm or submit_multi failed
+[30-Jun-2021 16:36:16 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 16:36:58 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[30-Jun-2021 16:36:59 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[30-Jun-2021 16:36:59 Africa/Nairobi] Binding transmitter...
+[30-Jun-2021 16:36:59 Africa/Nairobi] Send PDU         : 43 bytes
+[30-Jun-2021 16:36:59 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[30-Jun-2021 16:36:59 Africa/Nairobi]  command_id      : 0x2
+[30-Jun-2021 16:36:59 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 16:36:59 Africa/Nairobi] Read PDU         : 25 bytes
+[30-Jun-2021 16:36:59 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 45 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[30-Jun-2021 16:36:59 Africa/Nairobi]  command id      : 0x80000002
+[30-Jun-2021 16:36:59 Africa/Nairobi]  command status  : 0x45 submit_sm or submit_multi failed
+[30-Jun-2021 16:36:59 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 16:37:24 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[30-Jun-2021 16:37:25 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[30-Jun-2021 16:37:25 Africa/Nairobi] Binding transmitter...
+[30-Jun-2021 16:37:25 Africa/Nairobi] Send PDU         : 43 bytes
+[30-Jun-2021 16:37:25 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[30-Jun-2021 16:37:25 Africa/Nairobi]  command_id      : 0x2
+[30-Jun-2021 16:37:25 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 16:37:25 Africa/Nairobi] Read PDU         : 25 bytes
+[30-Jun-2021 16:37:25 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 45 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[30-Jun-2021 16:37:25 Africa/Nairobi]  command id      : 0x80000002
+[30-Jun-2021 16:37:25 Africa/Nairobi]  command status  : 0x45 submit_sm or submit_multi failed
+[30-Jun-2021 16:37:25 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 16:37:51 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[30-Jun-2021 16:37:51 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[30-Jun-2021 16:37:51 Africa/Nairobi] Binding transmitter...
+[30-Jun-2021 16:37:51 Africa/Nairobi] Send PDU         : 43 bytes
+[30-Jun-2021 16:37:51 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[30-Jun-2021 16:37:51 Africa/Nairobi]  command_id      : 0x2
+[30-Jun-2021 16:37:51 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 16:37:51 Africa/Nairobi] Read PDU         : 25 bytes
+[30-Jun-2021 16:37:51 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 45 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[30-Jun-2021 16:37:51 Africa/Nairobi]  command id      : 0x80000002
+[30-Jun-2021 16:37:51 Africa/Nairobi]  command status  : 0x45 submit_sm or submit_multi failed
+[30-Jun-2021 16:37:51 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 16:39:07 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[30-Jun-2021 16:39:08 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[30-Jun-2021 16:39:08 Africa/Nairobi] Binding transmitter...
+[30-Jun-2021 16:39:08 Africa/Nairobi] Send PDU         : 43 bytes
+[30-Jun-2021 16:39:08 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[30-Jun-2021 16:39:08 Africa/Nairobi]  command_id      : 0x2
+[30-Jun-2021 16:39:08 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 16:39:08 Africa/Nairobi] Read PDU         : 25 bytes
+[30-Jun-2021 16:39:08 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 45 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[30-Jun-2021 16:39:08 Africa/Nairobi]  command id      : 0x80000002
+[30-Jun-2021 16:39:08 Africa/Nairobi]  command status  : 0x45 submit_sm or submit_multi failed
+[30-Jun-2021 16:39:08 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 20:06:24 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[30-Jun-2021 20:06:25 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[30-Jun-2021 20:06:25 Africa/Nairobi] Binding transmitter...
+[30-Jun-2021 20:06:25 Africa/Nairobi] Send PDU         : 44 bytes
+[30-Jun-2021 20:06:25 Africa/Nairobi]  00 00 00 2c 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 41 69 72 74 65 6c 40 31 32 33 00 57 57 57 00 34 00 00 00 
+[30-Jun-2021 20:06:25 Africa/Nairobi]  command_id      : 0x2
+[30-Jun-2021 20:06:25 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 20:06:25 Africa/Nairobi] Read PDU         : 25 bytes
+[30-Jun-2021 20:06:25 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 0e 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[30-Jun-2021 20:06:25 Africa/Nairobi]  command id      : 0x80000002
+[30-Jun-2021 20:06:25 Africa/Nairobi]  command status  : 0xe Invalid Password
+[30-Jun-2021 20:06:25 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 20:06:42 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[30-Jun-2021 20:06:42 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[30-Jun-2021 20:06:42 Africa/Nairobi] Binding transmitter...
+[30-Jun-2021 20:06:42 Africa/Nairobi] Send PDU         : 44 bytes
+[30-Jun-2021 20:06:42 Africa/Nairobi]  00 00 00 2c 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 41 69 72 74 65 6c 40 31 32 33 00 57 57 57 00 34 00 00 00 
+[30-Jun-2021 20:06:42 Africa/Nairobi]  command_id      : 0x2
+[30-Jun-2021 20:06:42 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 20:06:42 Africa/Nairobi] Read PDU         : 25 bytes
+[30-Jun-2021 20:06:42 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 0e 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[30-Jun-2021 20:06:42 Africa/Nairobi]  command id      : 0x80000002
+[30-Jun-2021 20:06:42 Africa/Nairobi]  command status  : 0xe Invalid Password
+[30-Jun-2021 20:06:42 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 20:06:50 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[30-Jun-2021 20:06:50 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[30-Jun-2021 20:06:50 Africa/Nairobi] Binding transmitter...
+[30-Jun-2021 20:06:50 Africa/Nairobi] Send PDU         : 44 bytes
+[30-Jun-2021 20:06:50 Africa/Nairobi]  00 00 00 2c 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 41 69 72 74 65 6c 40 31 32 33 00 57 57 57 00 34 00 00 00 
+[30-Jun-2021 20:06:50 Africa/Nairobi]  command_id      : 0x2
+[30-Jun-2021 20:06:50 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 20:06:50 Africa/Nairobi] Read PDU         : 25 bytes
+[30-Jun-2021 20:06:50 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 0e 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[30-Jun-2021 20:06:50 Africa/Nairobi]  command id      : 0x80000002
+[30-Jun-2021 20:06:50 Africa/Nairobi]  command status  : 0xe Invalid Password
+[30-Jun-2021 20:06:50 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 20:17:38 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[30-Jun-2021 20:17:38 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[30-Jun-2021 20:17:38 Africa/Nairobi] Binding transmitter...
+[30-Jun-2021 20:17:38 Africa/Nairobi] Send PDU         : 44 bytes
+[30-Jun-2021 20:17:38 Africa/Nairobi]  00 00 00 2c 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 41 69 72 74 65 6c 40 31 32 33 00 57 57 57 00 34 00 00 00 
+[30-Jun-2021 20:17:38 Africa/Nairobi]  command_id      : 0x2
+[30-Jun-2021 20:17:38 Africa/Nairobi]  sequence number : 1
+[30-Jun-2021 20:17:38 Africa/Nairobi] Read PDU         : 25 bytes
+[30-Jun-2021 20:17:38 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 0e 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[30-Jun-2021 20:17:38 Africa/Nairobi]  command id      : 0x80000002
+[30-Jun-2021 20:17:38 Africa/Nairobi]  command status  : 0xe Invalid Password
+[30-Jun-2021 20:17:38 Africa/Nairobi]  sequence number : 1
+[06-Jul-2021 17:41:26 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[06-Jul-2021 17:41:27 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[06-Jul-2021 17:41:27 Africa/Nairobi] Binding transmitter...
+[06-Jul-2021 17:41:27 Africa/Nairobi] Send PDU         : 43 bytes
+[06-Jul-2021 17:41:27 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[06-Jul-2021 17:41:27 Africa/Nairobi]  command_id      : 0x2
+[06-Jul-2021 17:41:27 Africa/Nairobi]  sequence number : 1
+[06-Jul-2021 17:41:27 Africa/Nairobi] Read PDU         : 25 bytes
+[06-Jul-2021 17:41:27 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[06-Jul-2021 17:41:27 Africa/Nairobi]  command id      : 0x80000002
+[06-Jul-2021 17:41:27 Africa/Nairobi]  command status  : 0x0 No Error
+[06-Jul-2021 17:41:27 Africa/Nairobi]  sequence number : 1
+[06-Jul-2021 17:41:27 Africa/Nairobi] Binding status  : 0
+[06-Jul-2021 17:41:27 Africa/Nairobi] Send PDU         : 228 bytes
+[06-Jul-2021 17:41:27 Africa/Nairobi]  00 00 00 e4 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 41 46 20 41 52 55 53 48 41 00 01 01 32 35 35 37 31 39 38 30 32 30 39 32 00 00 00 00 00 00 01 00 00 00 00 04 24 00 aa 41 6c 6c 69 61 6e 63 65 20 46 72 61 6e 63 61 69 73 65 20 2c 41 72 75 73 68 61 27 73 20 74 6f 70 20 46 72 65 6e 63 68 20 4c 65 61 72 6e 69 6e 67 20 63 65 6e 74 65 72 20 6f 66 66 65 72 73 20 4b 69 64 73 20 48 6f 6c 69 64 61 79 20 63 61 6d 70 20 70 72 6f 67 72 61 6d 6d 65 20 20 28 44 61 6e 63 69 6e 67 20 2c 63 6f 6f 6b 69 6e 67 20 2c 61 72 74 73 20 26 20 63 72 61 66 74 73 20 65 74 63 2e 2e 2e 29 66 72 6f 6d 20 33 79 72 73 20 74 6f 20 31 35 20 79 65 61 72 73 20 2e 43 41 4c 4c 20 30 37 38 36 31 31 31 34 31 34 
+[06-Jul-2021 17:41:27 Africa/Nairobi]  command_id      : 0x4
+[06-Jul-2021 17:41:27 Africa/Nairobi]  sequence number : 2
+[06-Jul-2021 17:43:27 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[06-Jul-2021 17:43:28 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[06-Jul-2021 17:43:28 Africa/Nairobi] Binding transmitter...
+[06-Jul-2021 17:43:28 Africa/Nairobi] Send PDU         : 43 bytes
+[06-Jul-2021 17:43:28 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[06-Jul-2021 17:43:28 Africa/Nairobi]  command_id      : 0x2
+[06-Jul-2021 17:43:28 Africa/Nairobi]  sequence number : 1
+[06-Jul-2021 17:43:28 Africa/Nairobi] Read PDU         : 25 bytes
+[06-Jul-2021 17:43:28 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[06-Jul-2021 17:43:28 Africa/Nairobi]  command id      : 0x80000002
+[06-Jul-2021 17:43:28 Africa/Nairobi]  command status  : 0x0 No Error
+[06-Jul-2021 17:43:28 Africa/Nairobi]  sequence number : 1
+[06-Jul-2021 17:43:28 Africa/Nairobi] Binding status  : 0
+[06-Jul-2021 17:43:28 Africa/Nairobi] Send PDU         : 228 bytes
+[06-Jul-2021 17:43:28 Africa/Nairobi]  00 00 00 e4 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 41 46 20 41 52 55 53 48 41 00 01 01 32 35 35 37 38 36 32 32 30 33 38 30 00 00 00 00 00 00 01 00 00 00 00 04 24 00 aa 41 6c 6c 69 61 6e 63 65 20 46 72 61 6e 63 61 69 73 65 20 2c 41 72 75 73 68 61 27 73 20 74 6f 70 20 46 72 65 6e 63 68 20 4c 65 61 72 6e 69 6e 67 20 63 65 6e 74 65 72 20 6f 66 66 65 72 73 20 4b 69 64 73 20 48 6f 6c 69 64 61 79 20 63 61 6d 70 20 70 72 6f 67 72 61 6d 6d 65 20 20 28 44 61 6e 63 69 6e 67 20 2c 63 6f 6f 6b 69 6e 67 20 2c 61 72 74 73 20 26 20 63 72 61 66 74 73 20 65 74 63 2e 2e 2e 29 66 72 6f 6d 20 33 79 72 73 20 74 6f 20 31 35 20 79 65 61 72 73 20 2e 43 41 4c 4c 20 30 37 38 36 31 31 31 34 31 34 
+[06-Jul-2021 17:43:28 Africa/Nairobi]  command_id      : 0x4
+[06-Jul-2021 17:43:28 Africa/Nairobi]  sequence number : 2
+[06-Jul-2021 17:46:00 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[06-Jul-2021 17:46:00 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[06-Jul-2021 17:46:00 Africa/Nairobi] Binding transmitter...
+[06-Jul-2021 17:46:00 Africa/Nairobi] Send PDU         : 43 bytes
+[06-Jul-2021 17:46:00 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 4b 45 30 37 34 33 38 33 25 00 57 57 57 00 34 00 00 00 
+[06-Jul-2021 17:46:00 Africa/Nairobi]  command_id      : 0x2
+[06-Jul-2021 17:46:00 Africa/Nairobi]  sequence number : 1
+[06-Jul-2021 17:46:01 Africa/Nairobi] Read PDU         : 25 bytes
+[06-Jul-2021 17:46:01 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[06-Jul-2021 17:46:01 Africa/Nairobi]  command id      : 0x80000002
+[06-Jul-2021 17:46:01 Africa/Nairobi]  command status  : 0x0 No Error
+[06-Jul-2021 17:46:01 Africa/Nairobi]  sequence number : 1
+[06-Jul-2021 17:46:01 Africa/Nairobi] Binding status  : 0
+[06-Jul-2021 17:46:01 Africa/Nairobi] Send PDU         : 228 bytes
+[06-Jul-2021 17:46:01 Africa/Nairobi]  00 00 00 e4 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 41 46 20 41 52 55 53 48 41 00 01 01 32 35 35 37 34 35 30 30 30 32 37 37 00 00 00 00 00 00 01 00 00 00 00 04 24 00 aa 41 6c 6c 69 61 6e 63 65 20 46 72 61 6e 63 61 69 73 65 20 2c 41 72 75 73 68 61 27 73 20 74 6f 70 20 46 72 65 6e 63 68 20 4c 65 61 72 6e 69 6e 67 20 63 65 6e 74 65 72 20 6f 66 66 65 72 73 20 4b 69 64 73 20 48 6f 6c 69 64 61 79 20 63 61 6d 70 20 70 72 6f 67 72 61 6d 6d 65 20 20 28 44 61 6e 63 69 6e 67 20 2c 63 6f 6f 6b 69 6e 67 20 2c 61 72 74 73 20 26 20 63 72 61 66 74 73 20 65 74 63 2e 2e 2e 29 66 72 6f 6d 20 33 79 72 73 20 74 6f 20 31 35 20 79 65 61 72 73 20 2e 43 41 4c 4c 20 30 37 38 36 31 31 31 34 31 34 
+[06-Jul-2021 17:46:01 Africa/Nairobi]  command_id      : 0x4
+[06-Jul-2021 17:46:01 Africa/Nairobi]  sequence number : 2
+[06-Jul-2021 18:10:23 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[06-Jul-2021 18:10:23 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[06-Jul-2021 18:10:23 Africa/Nairobi] Binding transmitter...
+[06-Jul-2021 18:10:23 Africa/Nairobi] Send PDU         : 43 bytes
+[06-Jul-2021 18:10:23 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 56 69 63 74 6f 40 33 32 31 00 57 57 57 00 34 00 00 00 
+[06-Jul-2021 18:10:23 Africa/Nairobi]  command_id      : 0x2
+[06-Jul-2021 18:10:23 Africa/Nairobi]  sequence number : 1
+[06-Jul-2021 18:10:23 Africa/Nairobi] Read PDU         : 25 bytes
+[06-Jul-2021 18:10:23 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[06-Jul-2021 18:10:23 Africa/Nairobi]  command id      : 0x80000002
+[06-Jul-2021 18:10:23 Africa/Nairobi]  command status  : 0x0 No Error
+[06-Jul-2021 18:10:23 Africa/Nairobi]  sequence number : 1
+[06-Jul-2021 18:10:23 Africa/Nairobi] Binding status  : 0
+[06-Jul-2021 18:10:23 Africa/Nairobi] Send PDU         : 228 bytes
+[06-Jul-2021 18:10:23 Africa/Nairobi]  00 00 00 e4 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 41 46 20 41 52 55 53 48 41 00 01 01 32 35 35 36 35 33 36 35 38 39 39 39 00 00 00 00 00 00 01 00 00 00 00 04 24 00 aa 41 6c 6c 69 61 6e 63 65 20 46 72 61 6e 63 61 69 73 65 20 2c 41 72 75 73 68 61 27 73 20 74 6f 70 20 46 72 65 6e 63 68 20 4c 65 61 72 6e 69 6e 67 20 63 65 6e 74 65 72 20 6f 66 66 65 72 73 20 4b 69 64 73 20 48 6f 6c 69 64 61 79 20 63 61 6d 70 20 70 72 6f 67 72 61 6d 6d 65 20 20 28 44 61 6e 63 69 6e 67 20 2c 63 6f 6f 6b 69 6e 67 20 2c 61 72 74 73 20 26 20 63 72 61 66 74 73 20 65 74 63 2e 2e 2e 29 66 72 6f 6d 20 33 79 72 73 20 74 6f 20 31 35 20 79 65 61 72 73 20 2e 43 41 4c 4c 20 30 37 38 36 31 31 31 34 31 34 
+[06-Jul-2021 18:10:23 Africa/Nairobi]  command_id      : 0x4
+[06-Jul-2021 18:10:23 Africa/Nairobi]  sequence number : 2
+[06-Jul-2021 18:17:31 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[06-Jul-2021 18:17:31 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[06-Jul-2021 18:17:31 Africa/Nairobi] Binding transmitter...
+[06-Jul-2021 18:17:31 Africa/Nairobi] Send PDU         : 43 bytes
+[06-Jul-2021 18:17:31 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 56 69 63 74 6f 40 33 32 31 00 57 57 57 00 34 00 00 00 
+[06-Jul-2021 18:17:31 Africa/Nairobi]  command_id      : 0x2
+[06-Jul-2021 18:17:31 Africa/Nairobi]  sequence number : 1
+[06-Jul-2021 18:17:31 Africa/Nairobi] Read PDU         : 25 bytes
+[06-Jul-2021 18:17:31 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[06-Jul-2021 18:17:31 Africa/Nairobi]  command id      : 0x80000002
+[06-Jul-2021 18:17:31 Africa/Nairobi]  command status  : 0x0 No Error
+[06-Jul-2021 18:17:31 Africa/Nairobi]  sequence number : 1
+[06-Jul-2021 18:17:31 Africa/Nairobi] Binding status  : 0
+[06-Jul-2021 18:17:31 Africa/Nairobi] Send PDU         : 228 bytes
+[06-Jul-2021 18:17:31 Africa/Nairobi]  00 00 00 e4 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 41 46 20 41 52 55 53 48 41 00 01 01 32 35 35 37 35 32 32 32 35 35 30 31 00 00 00 00 00 00 01 00 00 00 00 04 24 00 aa 41 6c 6c 69 61 6e 63 65 20 46 72 61 6e 63 61 69 73 65 20 2c 41 72 75 73 68 61 27 73 20 74 6f 70 20 46 72 65 6e 63 68 20 4c 65 61 72 6e 69 6e 67 20 63 65 6e 74 65 72 20 6f 66 66 65 72 73 20 4b 69 64 73 20 48 6f 6c 69 64 61 79 20 63 61 6d 70 20 70 72 6f 67 72 61 6d 6d 65 20 20 28 44 61 6e 63 69 6e 67 20 2c 63 6f 6f 6b 69 6e 67 20 2c 61 72 74 73 20 26 20 63 72 61 66 74 73 20 65 74 63 2e 2e 2e 29 66 72 6f 6d 20 33 79 72 73 20 74 6f 20 31 35 20 79 65 61 72 73 20 2e 43 41 4c 4c 20 30 37 38 36 31 31 31 34 31 34 
+[06-Jul-2021 18:17:31 Africa/Nairobi]  command_id      : 0x4
+[06-Jul-2021 18:17:31 Africa/Nairobi]  sequence number : 2
+[06-Jul-2021 18:26:39 Africa/Nairobi] Connecting to 196.46.122.141:9001...
+[06-Jul-2021 18:26:40 Africa/Nairobi] Connected to 196.46.122.141:9001!
+[06-Jul-2021 18:26:40 Africa/Nairobi] Binding transmitter...
+[06-Jul-2021 18:26:40 Africa/Nairobi] Send PDU         : 43 bytes
+[06-Jul-2021 18:26:40 Africa/Nairobi]  00 00 00 2b 00 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 56 69 63 74 6f 40 33 32 31 00 57 57 57 00 34 00 00 00 
+[06-Jul-2021 18:26:40 Africa/Nairobi]  command_id      : 0x2
+[06-Jul-2021 18:26:40 Africa/Nairobi]  sequence number : 1
+[06-Jul-2021 18:26:40 Africa/Nairobi] Read PDU         : 25 bytes
+[06-Jul-2021 18:26:40 Africa/Nairobi]  00 00 00 19 80 00 00 02 00 00 00 00 00 00 00 01 56 49 43 54 4f 52 49 41 00 
+[06-Jul-2021 18:26:40 Africa/Nairobi]  command id      : 0x80000002
+[06-Jul-2021 18:26:40 Africa/Nairobi]  command status  : 0x0 No Error
+[06-Jul-2021 18:26:40 Africa/Nairobi]  sequence number : 1
+[06-Jul-2021 18:26:40 Africa/Nairobi] Binding status  : 0
+[06-Jul-2021 18:26:40 Africa/Nairobi] Send PDU         : 228 bytes
+[06-Jul-2021 18:26:40 Africa/Nairobi]  00 00 00 e4 00 00 00 04 00 00 00 00 00 00 00 02 00 05 00 41 46 20 41 52 55 53 48 41 00 01 01 32 35 35 36 37 34 35 32 39 32 34 37 00 00 00 00 00 00 01 00 00 00 00 04 24 00 aa 41 6c 6c 69 61 6e 63 65 20 46 72 61 6e 63 61 69 73 65 20 2c 41 72 75 73 68 61 27 73 20 74 6f 70 20 46 72 65 6e 63 68 20 4c 65 61 72 6e 69 6e 67 20 63 65 6e 74 65 72 20 6f 66 66 65 72 73 20 4b 69 64 73 20 48 6f 6c 69 64 61 79 20 63 61 6d 70 20 70 72 6f 67 72 61 6d 6d 65 20 20 28 44 61 6e 63 69 6e 67 20 2c 63 6f 6f 6b 69 6e 67 20 2c 61 72 74 73 20 26 20 63 72 61 66 74 73 20 65 74 63 2e 2e 2e 29 66 72 6f 6d 20 33 79 72 73 20 74 6f 20 31 35 20 79 65 61 72 73 20 2e 43 41 4c 4c 20 30 37 38 36 31 31 31 34 31 34 
+[06-Jul-2021 18:26:40 Africa/Nairobi]  command_id      : 0x4
+[06-Jul-2021 18:26:40 Africa/Nairobi]  sequence number : 2

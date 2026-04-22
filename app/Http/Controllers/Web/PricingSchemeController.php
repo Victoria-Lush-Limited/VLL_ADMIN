@@ -7,14 +7,23 @@ use App\Models\Pricing;
 use App\Models\PricingScheme;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\View\View;
 
 class PricingSchemeController extends Controller
 {
     public function index(): View
     {
+        $query = PricingScheme::with('tiers')->orderByDesc('id');
+        if ((string) Auth::user()->account_type !== 'administrator') {
+            $query->where(function ($inner): void {
+                $inner->where('owner_user_id', (string) Auth::user()->user_id)
+                    ->orWhere('is_default', true);
+            });
+        }
+
         return view('pricing.index', [
-            'schemes' => PricingScheme::with('tiers')->orderByDesc('id')->get(),
+            'schemes' => $query->get(),
         ]);
     }
 

@@ -8,7 +8,21 @@
                 <h5 class="mb-3">Create SMS Order</h5>
                 <form method="POST" action="{{ route('web.orders.store') }}">
                     @csrf
-                    <div class="mb-2"><input class="form-control" name="user_id" placeholder="Target User ID" required></div>
+                    @php($isAdmin = (auth()->user()->account_type ?? null) === 'administrator')
+                    <div class="mb-2">
+                        <input
+                            class="form-control"
+                            name="user_id"
+                            placeholder="Target User ID"
+                            value="{{ $isAdmin ? old('user_id') : auth()->user()->user_id }}"
+                            @disabled(! $isAdmin)
+                            required
+                        >
+                        @if(! $isAdmin)
+                            <input type="hidden" name="user_id" value="{{ auth()->user()->user_id }}">
+                            <small class="text-muted">Orders are restricted to your account.</small>
+                        @endif
+                    </div>
                     <div class="mb-2"><input class="form-control" type="number" name="quantity" placeholder="Quantity" required></div>
                     <div class="mb-2">
                         <select class="form-select" name="pricing_scheme_id" required>

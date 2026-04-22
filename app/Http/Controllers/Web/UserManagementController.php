@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Models\User;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\View\View;
 
 class UserManagementController extends Controller
@@ -14,6 +15,10 @@ class UserManagementController extends Controller
     {
         $search = (string) $request->query('q', '');
         $query = User::query()->orderByDesc('id');
+        if ((string) Auth::user()->account_type !== 'administrator') {
+            $query->where('user_id', (string) Auth::user()->user_id);
+        }
+
         if ($search !== '') {
             $query->where(function ($q) use ($search) {
                 $q->where('name', 'like', "%{$search}%")
@@ -28,6 +33,8 @@ class UserManagementController extends Controller
 
     public function updateStatus(Request $request, int $id): RedirectResponse
     {
+        abort_unless((string) Auth::user()->account_type === 'administrator', 403, 'Forbidden.');
+
         $data = $request->validate([
             'status' => ['required', 'in:active,disabled,pending'],
         ]);

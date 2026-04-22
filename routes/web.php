@@ -30,6 +30,7 @@ Route::middleware(['auth', 'webrole:administrator,reseller,agent'])->group(funct
     Route::post('/users/{id}/status', [UserManagementController::class, 'updateStatus'])->name('web.users.status');
 
     Route::get('/reports', [ReportController::class, 'index'])->name('web.reports.index');
+    Route::get('/reports/print', [ReportController::class, 'print'])->name('web.reports.print');
     Route::get('/sender-ids', [LegacyModuleController::class, 'senderIds'])->name('web.sender-ids.index');
     Route::post('/sender-ids', [LegacyModuleController::class, 'storeSenderId'])->name('web.sender-ids.store');
     Route::post('/sender-ids/{id}/status', [LegacyModuleController::class, 'updateSenderStatus'])->name('web.sender-ids.status');

@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+@php($isAdmin = (auth()->user()->account_type ?? null) === 'administrator')
 <div class="card">
     <div class="card-body">
         <div class="d-flex justify-content-between align-items-center mb-3">
@@ -21,15 +22,17 @@
                     <td>{{ $user->account_type }}</td>
                     <td>{{ $user->status }}</td>
                     <td>
-                        <form method="POST" action="{{ route('web.users.status', $user->id) }}" class="d-flex gap-1">
-                            @csrf
-                            <select name="status" class="form-select form-select-sm">
-                                <option value="active" @selected($user->status === 'active')>active</option>
-                                <option value="disabled" @selected($user->status === 'disabled')>disabled</option>
-                                <option value="pending" @selected($user->status === 'pending')>pending</option>
-                            </select>
-                            <button class="btn btn-sm btn-primary">Save</button>
-                        </form>
+                        @if($isAdmin)
+                            <form method="POST" action="{{ route('web.users.status', $user->id) }}" class="d-flex gap-1">
+                                @csrf
+                                <select name="status" class="form-select form-select-sm">
+                                    <option value="active" @selected($user->status === 'active')>active</option>
+                                    <option value="disabled" @selected($user->status === 'disabled')>disabled</option>
+                                    <option value="pending" @selected($user->status === 'pending')>pending</option>
+                                </select>
+                                <button class="btn btn-sm btn-primary">Save</button>
+                            </form>
+                        @endif
                     </td>
                 </tr>
             @endforeach

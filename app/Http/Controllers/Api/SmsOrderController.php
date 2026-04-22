@@ -21,8 +21,17 @@ class SmsOrderController extends Controller
         Gate::authorize('viewAny', SmsOrder::class);
 
         $query = SmsOrder::query()->orderBy('id', 'desc');
-        if ($request->user()->account_type !== 'administrator') {
-            $query->where('user_id', (string) $request->user()->user_id);
+        if ((string) $request->user()->account_type !== 'administrator') {
+            $actorUserId = (string) $request->user()->user_id;
+            $query->where(function ($inner) use ($request, $actorUserId): void {
+                $inner->where('user_id', $actorUserId);
+                if ((string) $request->user()->account_type === 'reseller') {
+                    $inner->orWhere('reseller_id', $actorUserId);
+                }
+                if ((string) $request->user()->account_type === 'agent') {
+                    $inner->orWhere('agent_id', $actorUserId);
+                }
+            });
         }
 
         return $this->ok('Orders retrieved.', $query->paginate(20));
@@ -31,6 +40,10 @@ class SmsOrderController extends Controller
     public function store(StoreSmsOrderRequest $request): JsonResponse
     {
         $data = $request->validated();
+        if ((string) $request->user()->account_type !== 'administrator') {
+            $data['user_id'] = (string) $request->user()->user_id;
+            $data['account_type'] = (string) $request->user()->account_type;
+        }
         Gate::authorize('create', [SmsOrder::class, (string) $data['user_id']]);
 
         $tier = Pricing::where('pricing_scheme_id', $data['pricing_scheme_id'])
@@ -58,8 +71,12 @@ class SmsOrderController extends Controller
             'reference' => 'ORD-'.strtoupper(Str::random(12)),
             'payment_method' => $data['payment_method'] ?? null,
             'receipt' => $data['receipt'] ?? null,
-            'reseller_id' => $data['reseller_id'] ?? null,
-            'agent_id' => $data['agent_id'] ?? null,
+            'reseller_id' => (string) $request->user()->account_type === 'reseller'
+                ? (string) $request->user()->user_id
+                : ($data['reseller_id'] ?? null),
+            'agent_id' => (string) $request->user()->account_type === 'agent'
+                ? (string) $request->user()->user_id
+                : ($data['agent_id'] ?? null),
         ]);
 
         return $this->ok('Order created.', $order, 201);

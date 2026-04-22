@@ -17,43 +17,110 @@ class LegacyModuleController extends Controller
 {
     public function sales(): View
     {
+        $actor = Auth::user();
+        $query = SmsOrder::query()->where('order_status', 'allocated');
+        if ((string) $actor->account_type !== 'administrator') {
+            $actorUserId = (string) $actor->user_id;
+            $query->where(function ($inner) use ($actor, $actorUserId): void {
+                $inner->where('user_id', $actorUserId);
+                if ((string) $actor->account_type === 'reseller') {
+                    $inner->orWhere('reseller_id', $actorUserId);
+                }
+                if ((string) $actor->account_type === 'agent') {
+                    $inner->orWhere('agent_id', $actorUserId);
+                }
+            });
+        }
+
         return view('modules.sales', [
-            'sales' => SmsOrder::where('order_status', 'allocated')->orderByDesc('id')->paginate(20),
+            'sales' => $query->orderByDesc('id')->paginate(20),
         ]);
     }
 
     public function clients(): View
     {
+        $actor = Auth::user();
+        $query = User::query()->where('account_type', 'broadcaster');
+        if ((string) $actor->account_type !== 'administrator') {
+            $scopedUserIds = SmsOrder::query()
+                ->select('user_id')
+                ->where(function ($inner) use ($actor): void {
+                    if ((string) $actor->account_type === 'reseller') {
+                        $inner->where('reseller_id', (string) $actor->user_id);
+                    } elseif ((string) $actor->account_type === 'agent') {
+                        $inner->where('agent_id', (string) $actor->user_id);
+                    } else {
+                        $inner->where('user_id', (string) $actor->user_id);
+                    }
+                })
+                ->distinct()
+                ->pluck('user_id');
+            $query->whereIn('user_id', $scopedUserIds);
+        }
+
         return view('modules.clients', [
-            'clients' => User::where('account_type', 'broadcaster')->orderByDesc('id')->paginate(30),
+            'clients' => $query->orderByDesc('id')->paginate(30),
         ]);
     }
 
     public function resellers(): View
     {
+        $actor = Auth::user();
+        $query = User::query()->where('account_type', 'reseller');
+        if ((string) $actor->account_type !== 'administrator') {
+            $query->where('user_id', (string) $actor->user_id);
+        }
+
         return view('modules.resellers', [
-            'resellers' => User::where('account_type', 'reseller')->orderByDesc('id')->paginate(30),
+            'resellers' => $query->orderByDesc('id')->paginate(30),
         ]);
     }
 
     public function agents(): View
     {
+        $actor = Auth::user();
+        $query = User::query()->where('account_type', 'agent');
+        if ((string) $actor->account_type !== 'administrator') {
+            $query->where('user_id', (string) $actor->user_id);
+        }
+
         return view('modules.agents', [
-            'agents' => User::where('account_type', 'agent')->orderByDesc('id')->paginate(30),
+            'agents' => $query->orderByDesc('id')->paginate(30),
         ]);
     }
 
     public function scheduled(): View
     {
+        $actor = Auth::user();
+        $query = SmsOrder::query()->where('order_status', 'pending');
+        if ((string) $actor->account_type !== 'administrator') {
+            $actorUserId = (string) $actor->user_id;
+            $query->where(function ($inner) use ($actor, $actorUserId): void {
+                $inner->where('user_id', $actorUserId);
+                if ((string) $actor->account_type === 'reseller') {
+                    $inner->orWhere('reseller_id', $actorUserId);
+                }
+                if ((string) $actor->account_type === 'agent') {
+                    $inner->orWhere('agent_id', $actorUserId);
+                }
+            });
+        }
+
         return view('modules.scheduled', [
-            'scheduled' => SmsOrder::where('order_status', 'pending')->orderByDesc('id')->paginate(20),
+            'scheduled' => $query->orderByDesc('id')->paginate(20),
         ]);
     }
 
     public function history(): View
     {
+        $actor = Auth::user();
+        $query = Transaction::query();
+        if ((string) $actor->account_type !== 'administrator') {
+            $query->where('user_id', (string) $actor->user_id);
+        }
+
         return view('modules.history', [
-            'history' => Transaction::orderByDesc('id')->paginate(30),
+            'history' => $query->orderByDesc('id')->paginate(30),
         ]);
     }
 
@@ -64,8 +131,14 @@ class LegacyModuleController extends Controller
 
     public function senderIds(): View
     {
+        $actor = Auth::user();
+        $query = Sender::query();
+        if ((string) $actor->account_type !== 'administrator') {
+            $query->where('user_id', (string) $actor->user_id);
+        }
+
         return view('modules.sender-ids', [
-            'senders' => Sender::orderByDesc('id')->paginate(30),
+            'senders' => $query->orderByDesc('id')->paginate(30),
         ]);
     }
 
@@ -86,10 +159,15 @@ class LegacyModuleController extends Controller
 
     public function storeSenderId(): RedirectResponse
     {
+        $actor = Auth::user();
         $data = request()->validate([
             'sender_id' => ['required', 'string', 'max:11'],
             'user_id' => ['required', 'string', 'max:64'],
         ]);
+
+        if ((string) $actor->account_type !== 'administrator') {
+            $data['user_id'] = (string) $actor->user_id;
+        }
 
         Sender::create([
             'sender_id' => strtoupper($data['sender_id']),
@@ -102,6 +180,8 @@ class LegacyModuleController extends Controller
 
     public function updateSenderStatus(int $id): RedirectResponse
     {
+        abort_unless((string) Auth::user()->account_type === 'administrator', 403, 'Forbidden.');
+
         $data = request()->validate([
             'id_status' => ['required', 'in:pending,active,rejected,inactive'],
         ]);
@@ -114,6 +194,8 @@ class LegacyModuleController extends Controller
 
     private function storeUserByRole(string $accountType): RedirectResponse
     {
+        abort_unless((string) Auth::user()->account_type === 'administrator', 403, 'Forbidden.');
+
         $data = request()->validate([
             'name' => ['required', 'string', 'max:255'],
             'phone_number' => ['required', 'string', 'max:20'],

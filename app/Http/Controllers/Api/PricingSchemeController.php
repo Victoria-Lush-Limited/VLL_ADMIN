@@ -8,19 +8,32 @@ use App\Http\Requests\StorePricingSchemeRequest;
 use App\Models\Pricing;
 use App\Models\PricingScheme;
 use Illuminate\Http\JsonResponse;
+use Illuminate\Http\Request;
 
 class PricingSchemeController extends Controller
 {
     use ApiResponder;
 
-    public function index(): JsonResponse
+    public function index(Request $request): JsonResponse
     {
-        return $this->ok('Pricing schemes retrieved.', PricingScheme::with('tiers')->orderBy('id', 'desc')->get());
+        $query = PricingScheme::with('tiers')->orderBy('id', 'desc');
+        if ((string) $request->user()->account_type !== 'administrator') {
+            $query->where(function ($inner) use ($request): void {
+                $inner->where('owner_user_id', (string) $request->user()->user_id)
+                    ->orWhere('is_default', true);
+            });
+        }
+
+        return $this->ok('Pricing schemes retrieved.', $query->get());
     }
 
     public function store(StorePricingSchemeRequest $request): JsonResponse
     {
         $data = $request->validated();
+        if ((string) $request->user()->account_type !== 'administrator') {
+            $data['owner_user_id'] = (string) $request->user()->user_id;
+            $data['is_default'] = false;
+        }
 
         $scheme = PricingScheme::create([
             'name' => $data['name'],

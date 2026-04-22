@@ -9,6 +9,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\View\View;
+use RuntimeException;
 
 class AuthController extends Controller
 {
@@ -30,7 +31,7 @@ class AuthController extends Controller
             ->orWhere('user_id', $data['login'])
             ->first();
 
-        if (! $user || ! Hash::check($data['password'], $user->password)) {
+        if (! $user || ! $this->validateAndUpgradePassword($user, $data['password'])) {
             return back()->withErrors(['login' => 'Invalid credentials'])->withInput();
         }
 
@@ -55,5 +56,31 @@ class AuthController extends Controller
         $request->session()->regenerateToken();
 
         return redirect()->route('login');
+    }
+
+    private function validateAndUpgradePassword(User $user, string $plainPassword): bool
+    {
+        $storedPassword = (string) $user->password;
+
+        try {
+            return Hash::check($plainPassword, $storedPassword);
+        } catch (RuntimeException) {
+            $legacyMatch = false;
+
+            if (strlen($storedPassword) === 32 && ctype_xdigit($storedPassword)) {
+                $legacyMatch = hash_equals(strtolower($storedPassword), md5($plainPassword));
+            } else {
+                $legacyMatch = hash_equals($storedPassword, $plainPassword);
+            }
+
+            if (! $legacyMatch) {
+                return false;
+            }
+
+            $user->password = Hash::make($plainPassword);
+            $user->save();
+
+            return true;
+        }
     }
 }

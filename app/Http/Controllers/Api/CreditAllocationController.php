@@ -7,6 +7,7 @@ use App\Http\Controllers\Concerns\ApiResponder;
 use App\Http\Requests\AllocateCreditsRequest;
 use App\Models\SmsOrder;
 use App\Models\Transaction;
+use App\Services\Sms\AllocationNotificationService;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Support\Facades\Gate;
 
@@ -14,7 +15,7 @@ class CreditAllocationController extends Controller
 {
     use ApiResponder;
 
-    public function allocate(AllocateCreditsRequest $request, int $orderId): JsonResponse
+    public function allocate(AllocateCreditsRequest $request, int $orderId, AllocationNotificationService $notificationService): JsonResponse
     {
         $data = $request->validated();
 
@@ -35,6 +36,7 @@ class CreditAllocationController extends Controller
         ]);
 
         $order->update(['order_status' => 'allocated']);
+        $notificationService->sendAllocatedCreditsNotice($order->fresh());
 
         return $this->ok('Credits allocated successfully.', $order->fresh());
     }

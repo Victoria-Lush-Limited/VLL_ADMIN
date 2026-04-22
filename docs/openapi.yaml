@@ -1,0 +1,122 @@
+openapi: 3.0.3
+info:
+  title: VLL Backoffice API
+  version: 1.0.0
+servers:
+  - url: http://localhost:8000
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: Token
+security:
+  - bearerAuth: []
+paths:
+  /api/v1/auth/login:
+    post:
+      summary: Authenticate and issue token
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [login, password]
+              properties:
+                login: { type: string }
+                password: { type: string }
+                device_name: { type: string }
+            example:
+              login: admin@vll.local
+              password: Password@123
+              device_name: web-dashboard
+      responses:
+        "200":
+          description: Authenticated
+  /api/v1/auth/me:
+    get:
+      summary: Get authenticated user profile
+      responses:
+        "200":
+          description: Profile payload
+  /api/v1/backoffice/pricing-schemes:
+    get:
+      summary: List pricing schemes
+      responses:
+        "200":
+          description: List of schemes
+    post:
+      summary: Create pricing scheme
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [name]
+              properties:
+                name: { type: string }
+                owner_user_id: { type: string }
+                is_default: { type: boolean }
+                tiers:
+                  type: array
+                  items:
+                    type: object
+                    required: [min_sms, price]
+                    properties:
+                      min_sms: { type: integer }
+                      max_sms: { type: integer, nullable: true }
+                      price: { type: number }
+            example:
+              name: Default
+              owner_user_id: admin@vll.local
+              is_default: true
+              tiers:
+                - min_sms: 1
+                  max_sms: 1000
+                  price: 25
+      responses:
+        "201":
+          description: Created
+  /api/v1/backoffice/sms-orders:
+    get:
+      summary: List SMS orders
+      responses:
+        "200":
+          description: Paginated orders
+    post:
+      summary: Create SMS order
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [user_id, quantity, pricing_scheme_id]
+              properties:
+                user_id: { type: string }
+                quantity: { type: integer }
+                pricing_scheme_id: { type: integer }
+                payment_method: { type: string }
+                receipt: { type: string }
+            example:
+              user_id: 255700000001
+              quantity: 1000
+              pricing_scheme_id: 1
+              payment_method: Mpesa
+              receipt: MP123456
+      responses:
+        "201":
+          description: Created
+  /api/v1/backoffice/sms-orders/{orderId}/allocate:
+    post:
+      summary: Allocate purchased credits
+      parameters:
+        - in: path
+          name: orderId
+          required: true
+          schema: { type: integer }
+      responses:
+        "200":
+          description: Allocation completed

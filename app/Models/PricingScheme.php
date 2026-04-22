@@ -7,24 +7,10 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class PricingScheme extends Model
 {
-    protected $table = 'pricing_schemes';
-
-    protected $primaryKey = 'scheme_id';
-
-    public $incrementing = true;
-
-    protected $keyType = 'int';
-
-    public $timestamps = false;
-
-    protected $fillable = [
-        'scheme_name',
-        'account_type',
-        'user_id',
-    ];
+    protected $fillable = ['name', 'owner_user_id', 'is_default'];
 
     public function tiers(): HasMany
     {
-        return $this->hasMany(Pricing::class, 'scheme_id', 'scheme_id');
+        return $this->hasMany(Pricing::class, 'pricing_scheme_id');
     }
 }

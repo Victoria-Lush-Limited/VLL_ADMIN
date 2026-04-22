@@ -9,21 +9,10 @@ class Pricing extends Model
 {
     protected $table = 'pricing';
 
-    protected $primaryKey = 'pricing_id';
-
-    public $incrementing = true;
-
-    public $timestamps = false;
-
-    protected $fillable = [
-        'scheme_id',
-        'min_sms',
-        'max_sms',
-        'price',
-    ];
+    protected $fillable = ['pricing_scheme_id', 'min_sms', 'max_sms', 'price'];
 
     public function scheme(): BelongsTo
     {
-        return $this->belongsTo(PricingScheme::class, 'scheme_id', 'scheme_id');
+        return $this->belongsTo(PricingScheme::class, 'pricing_scheme_id');
     }
 }

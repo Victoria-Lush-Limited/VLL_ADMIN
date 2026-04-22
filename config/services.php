@@ -35,4 +35,12 @@ return [
         ],
     ],
 
+    'fasthub' => [
+        'base_url' => env('FASTHUB_BASE_URL', 'https://bulksms.fasthub.co.tz/'),
+        'send_path' => env('FASTHUB_SEND_PATH', '/api/sms/send'),
+        'client_id' => env('FASTHUB_CLIENT_ID'),
+        'client_secret' => env('FASTHUB_CLIENT_SECRET'),
+        'otp_sender_id' => env('FASTHUB_OTP_SENDER_ID', 'VLLSMS'),
+    ],
+
 ];
